@@ -1,0 +1,65 @@
+@media (min-width: 576px){
+	.modal-dialog {
+	    max-width: 500px;
+	    margin: 1.75rem auto;
+	    margin-top: 120px;
+	}
+}
+.box {
+    position: relative;
+    border-radius: 3px;
+    background: rgba(255,255,255,0.80);
+    border-top: 3px solid #d2d6de;
+    margin-bottom: 20px;
+    width: 100%;
+    box-shadow: 0 1px 1px rgba(0,0,0,0.1);
+}
+
+
+.header-sm {
+  padding: 3.2rem 0;
+}
+
+.link{
+  background-color: rgba(232, 232, 232, 1);
+  color: black; 
+}
+
+.lbl{
+	font-size: 1.1em;
+	font-weight: bold;
+}
+
+.info{
+    font-size: 1.1em;
+}
+
+.tbl>tbody>tr>td{
+	padding: 2px;
+	margin: 0px;
+}
+
+.tbl>tbody>tr>td{
+	border-bottom: 1px;
+}
+
+.table-bordered {
+    border: 1px solid #464e56;
+}
+
+.badge{
+	font-size: 1.1em;
+}
+
+.body{
+	padding: 0px;
+}
+
+a{
+  font-family: 'Open Sans';
+  color: gray;
+}
+
+.btn-custom{
+	background-color: #ffffff;
+}

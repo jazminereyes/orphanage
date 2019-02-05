@@ -1,0 +1,36 @@
+.card-header{
+	background-color: #499360;
+	color: #ffffff;
+}
+
+.head{
+	font-size: 25px;
+}
+
+.form-control{
+	display: inline-block;
+	margin-bottom: 10px;
+	margin-left: 10px;
+}
+
+.swd{
+	width: 300px;
+}
+
+.modal{
+	color: black;
+}
+
+.dt{
+	width: 100px;
+}
+
+.nav-pills .nav-link:not(.active):hover{
+	color: black;
+	background-color: #97BAA4;
+}
+
+.custom{
+	color: black;
+	background-color: #EDF5E1;
+}

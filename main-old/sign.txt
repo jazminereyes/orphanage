@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+
+$white: #fff;
+$dark: #384D63;
+$gray: #BDC3C7;
+$green: #2ECC71;
+$red: #c0392b;
+
+html, body
+{
+	margin: 0;
+}
+
+body
+{
+    background: #27ae60;
+}
+
+.container 
+{
+    background: white;
+    height: 500px;
+    width: 1000px;
+    position: absolute;
+    margin-top: 85px;
+    margin-left: 180px;
+}
+
+.side
+{
+    background: url('../client/img/header3.jpg');
+    background-size: cover;
+    background-position: center;
+    width: 500px;
+    height: 500px;
+    float: left;
+}
+
+.logo
+{
+    width: 300px;
+    height: 97px;
+    margin-left: 100px;
+    margin-top: 400px;
+}
+
+.right
+{
+    width: 500px;
+    height: 500px;
+    float: right;
+}
+
+.concordia
+{
+    height: 130px;
+    width: 130px;
+    border-radius: 10px;
+    margin-top: 100px;
+}
+
+input[type="text"], input[type="password"] {
+    width: 80%;
+    margin-left: 0%;
+    position: relative;
+    border: none;
+    border-bottom: 1px solid $gray;
+    font-family: 'Raleway';
+    font-size: 1.3em;
+    padding: 10px;
+    color: $dark;
+    transition: all .2s ease-out; 
+    font-weight: 500;
+    
+    &:focus {
+        outline: none;
+        border-bottom: 3px solid $gray;
+        transition: all .2s ease-out; 
+    }
+    
+    &:required:valid {
+        border-bottom: 3px solid $green;
+        transition: all .2s ease-in-out; 
+    }
+} 

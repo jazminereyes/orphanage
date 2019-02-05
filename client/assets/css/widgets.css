@@ -1,0 +1,117 @@
+/*!
+WIDGETS
+*/
+
+/* General */
+.widget {border-bottom: 2px solid #fff;padding: 2.5rem 0;}
+.widget:first-child {padding-top: 0;}
+.widget:last-child {border:none;}
+.widget ul {padding-left: 0;}
+.widget .widget-title {font-family: 'Montserrat',arial; font-size: 1rem; margin-bottom: 1.1rem;margin-top: 0;text-transform: uppercase;font-weight: 700;letter-spacing:1px;}
+.widget .widget-title p{font-weight: 600;text-transform: uppercase;letter-spacing: 1px;font-weight: 1.1rem;margin: 0;}
+
+/* Twitter Widget */
+.widget-twitter .btn {float: right;margin-right: 0;margin-top: 1rem;margin-bottom: 0;}
+.widget-twitter .tweets-list {padding-left: 40px;overflow: hidden;}
+.widget-twitter .tweets-list ul {position: relative !important;}
+.widget-twitter .tweets-list li {position: relative;padding-top: 1rem;padding-left: 0.8rem;}
+.widget-twitter .tweets-list li a {color:#E2785D;}
+.widget-twitter .tweets-list li a:hover {text-decoration: underline;}
+.widget-twitter .tweets-list li img {position: absolute;top:1rem;left:-40px;width: 40px;border-radius: 50%;}
+.widget-twitter .tweets-list li small {display: block; color:rgba(0,0,0,0.45);font-size: 0.85rem;font-weight: 600;}
+@media (max-width: 1500px){
+  .sidebar-left .widget-twitter .tweets-list li img, .sidebar-right .widget-twitter .tweets-list li img {display: none;}
+  .sidebar-left .widget-twitter .tweets-list, .sidebar-right .widget-twitter .tweets-list {padding-left: 0;}
+}
+
+/* Ecommerce Products Widget */
+.widget-products .product {border:none;margin: 0;background: none;padding-bottom: 0 !important;}
+.widget-products .product img {border-radius: 50%;max-width: 65px;}
+.widget-products .product .product-title {font-size: 1rem; font-weight: 600;display: inline-block;margin-bottom: 0;margin-top: 8px;}
+.widget-products .product .product-info {color:rgba(0,0,0,0.5);font-weight: 500; font-size: 0.9rem;padding:0;}
+.widget-products .product .product-info .product-price, .widget-products .product .product-info .product-rating {height: 30px;line-height: 30px;display: inline-block;}
+.widget-products .product .product-info .product-price {font-size: 1rem;float: left;}
+.widget-products .product .product-info .product-rating {padding-left: 1rem;opacity: 0;-webkit-transition: opacity .2s;-moz-transition: opacity .2s;transition: opacity .2s;}
+.widget-products .product:hover .product-info .product-rating {opacity: 1;}
+
+/* Facebook Widget */
+ #fb-widget,  .fb-page,.fb-page span,.fb-page span iframe[style] {width: 100% !important;}
+
+/* Pinterest Widget */
+.widget-pinterest > span {width: 100% !important;max-width: 800px !important;}
+
+/* Categories Widget */
+.widget-categories ul {margin-bottom: 0;}
+
+/* Carousel Widget */
+.widget-carousel .flexslider {width: 99.7%;}
+
+/* Testimonials Widget */
+.widget-testimonials .testimonial .testimonial-content {font-size: 14px;position: relative;margin-bottom: 12px;}
+
+/* Brands Widget */
+.widget-brands {padding-bottom: 1.5rem;}
+.widget-brands .owl-carousel {opacity: 0.5;-webkit-transition: opacity .2s;-moz-transition: opacity .2s;transition: opacity .2s;}
+.widget-brands .item {width: 70%;margin: 1rem auto 0 auto;}
+.widget-brands .item img {width: 100%;}
+@media (max-width: 992px){
+  .widget-brands .item {max-width: 300px;}
+}
+
+/* Ads Widget */
+.widget-ads img {margin:auto;}
+
+/* Social Icons Widget */
+.widget.widget-social-icons {padding-bottom: 1.9rem;width: calc(100% + 0.4rem);}
+.widget.widget-social-icons .icon-square a, .widget.widget-social-icons .icon-rounded a, .widget.widget-social-icons .icon-circle a {margin:0 .2rem .2rem 0;width: 39px; height: 39px;line-height: 39px;font-size: 1.35rem;}
+.widget.widget-social-icons .icon-hover a:hover i { transform: translateY(-39px);}
+
+/* Social Icons Widget */
+.widget.widget-text {padding-bottom: 1.9rem;}
+
+/* Links Widget */
+.widget-links ul {margin-bottom: 0;}
+.widget-links li {list-style: none;padding: 0.3rem;}
+.widget-links li a {color:rgba(0,0,0,0.9);-webkit-transition: all .3s ease-in-out;-moz-transition: all .3s ease-in-out;transition: all .3s ease-in-out;}
+.widget-links li a:hover {color:#E2785D;}
+.widget-links li a::before {content: "\f101";font-family: "FontAwesome";padding-right: .5rem;font-size: .9rem;color: rgba(0,0,0,0.6);}
+
+/* Tags Widget */
+.widget .tags a, .tags a {padding: 3px 10px;margin:0 7px 7px 0;display: inline-block; border:2px solid rgba(0,0,0,.1);text-transform: uppercase;letter-spacing: 1px; font-size: .85rem;-moz-transition: all .2s linear;-o-transition: all .2s linear;-webkit-transition: all .2s linear;transition: all .2s linear;}
+.widget .tags a:hover, .tags a:hover {background: #E2785D;border:2px solid transparent;color:#fff !important;}
+
+/* Color Filters Widget */
+.widget-colors-filter ul.colors-filter {margin-left: 0;margin-bottom: 0;padding-top: 1rem;}
+.widget-colors-filter ul.colors-filter > li {padding: 0;list-style: none;display: inline-block;}
+.widget-colors-filter ul.colors-filter > li a {display: inline-block; cursor: pointer;border:2px solid rgba(0,0,0,0.1);height: 34px;width: 34px;margin-right: 6px;margin-bottom: 6px; -webkit-border-radius: 50%;-moz-border-radius: 50%;border-radius: 50%;-webkit-transition: all .25s;  -moz-transition: all .25s;  transition: all .25s;}
+.widget-colors-filter ul.colors-filter > li.grayscale a {background: #DBDBDB !important;}
+
+/* Flickr Widget */
+.widget-flickr::before, .widget-flickr::after {content:"";display: table;clear:both;}
+.widget-flickr .flickr-list {width: 100%;position: relative;padding-left: 0;}
+.widget-flickr .flickr-list li {width: 25%;float:left;display: inline-block;list-style: none; }
+.widget-flickr .flickr-list li img {width: 100%;padding: 0 2px 2px 0;margin-bottom: 0 !important;}
+.widget-flickr ul {max-width: 400px;}
+
+/* Dribbble Widget */
+.widget-dribbble .dribbble-list {width: 100%;position: relative;padding-left: 0;}
+.widget-dribbble .dribbble-list li {width: 25%;display: inline-block;list-style: none; }
+.widget-dribbble .dribbble-list li img {width: 100%;padding: 0 2px 2px 0;}
+.widget-dribbble ul {max-width: 400px;}
+
+/* Recent / Popular Posts Widget */
+.widget-posts .post {border:none;margin: 0 0 .8rem 0;background: none;padding-bottom: 0 !important;}
+.widget-posts .post .media-body {padding-left: 0.4rem;}
+.widget-posts .post:last-child {margin-bottom: 0;}
+.widget-posts .post img {border-radius: 3px;max-width: 65px;}
+.widget-posts .post .post-title {font-size: 1rem; font-weight: 600;display: inline-block;margin-bottom: 2px;margin-top: 6px;}
+.widget-posts .post .post-meta {color:rgba(0,0,0,0.5);font-weight: 500; font-size: 0.9rem;}
+
+/* Comments Widget */
+.widget-comments .comment {margin-bottom: 1rem;}
+.widget-comments .comment p {font-family: 'Open Sans',arial !important; overflow: hidden;text-overflow: ellipsis;white-space: nowrap;margin-bottom: 0;line-height: 20px;}
+.widget-comments .comment p.comment-meta {color:rgba(0,0,0,0.5);font-weight: 600;font-size: 12px;margin-top: 0.3rem;letter-spacing: 1px;}
+
+/* Select Filters Widget */
+.widget.select-filters .select-filter {margin: 0 0 1.5rem 0;}
+

@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+
+html, body
+{
+	margin: 0;
+}
+
+body
+{
+    background: #27ae60;
+}
+
+.container 
+{
+    background: white;
+    height: 500px;
+    width: 1000px;
+    position: absolute;
+    margin-top: 85px;
+    margin-left: 180px;
+}
+
+.side
+{
+    background: url('../client/img/header3.jpg');
+    background-size: cover;
+    background-position: center;
+    width: 500px;
+    height: 500px;
+    float: left;
+}
+
+.logo
+{
+    width: 300px;
+    height: 97px;
+    margin-left: 100px;
+    margin-top: 400px;
+}
+
+.right
+{
+    width: 500px;
+    height: 500px;
+    float: right;
+}
+
+.concordia
+{
+    height: 130px;
+    width: 130px;
+    border-radius: 10px;
+    margin-top: 70px;
+}
+
+input[type="text"],
+input[type="password"] {
+  display: block;
+  box-sizing: border-box;
+  margin-bottom: 20px;
+  padding: 4px;
+  width: 220px;
+  height: 32px;
+  border: none;
+  border-bottom: 1px solid #AAA;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+  font-size: 15px;
+  transition: 0.2s ease;
+}
+
+input[type="text"]:focus,
+input[type="password"]:focus {
+  border-bottom: 2px solid #16a085;
+  color: #16a085;
+  transition: 0.2s ease;
+  outline: none;
+}
+
+form 
+{
+    margin-top: 50px;
+    margin-left: 150px;
+}
+
+input[type="submit"], input[type="reset"] {
+    margin-top: 10px;
+    width: 220px;
+    height: 36px;
+    border: none;
+    border-radius: 2px;
+    color: #FFF;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    transition: 0.2s ease;
+    cursor: pointer;
+    background: #27ae60;
+  }
+
+  input[type="submit"]:hover, input[type="reset"]:hover, input[type="submit"]:focuse, input[type="reset"]:focus{
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.4);
+    transition: 0.2s ease;
+  }
+
+  input[type="submit"]:active, input[type="reset"]:active{
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.4);
+    transition: 0.2s ease;
+  }

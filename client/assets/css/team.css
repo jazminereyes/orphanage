@@ -1,0 +1,45 @@
+/*!
+TEAM
+*/
+
+.section-team .row {margin-left: 0;margin-right: 0;}
+.section-team [class*="col-"] {padding-left: 0;padding-right: 0;}
+.team p {font-size: 1rem;}
+.team .team-img img {width: 100%;}
+.team .team-img figure.he-3 {background:none;}
+.team .team-img figure.he-3 .img-front, .team .team-img figure.he-3 .img-back {-webkit-backface-visibility: hidden; backface-visibility: hidden;}
+.team .team-img.chef-img figure {background:none;}
+.team .team-info {text-align: center;}
+.team .team-info .team-name {padding-top: 0.2rem;font-size: 20px;font-weight: 400;color: #000;letter-spacing: 1px;-webkit-font-smoothing: subpixel-antialiased;}
+.team .team-info .team-job {font-family: 'Satisfy','Open Sans', arial;font-size: 16px;margin-top: 5px; color:#999; padding-top: 0;padding-bottom: 1.3rem;}
+.team .team-info .team-social {padding-top: 1rem;}
+.team {position: relative;margin: auto;}
+.team .team-img {max-width: 450px;margin: auto;}
+.team figure img {-webkit-transition: all .3s ease-in-out;-moz-transition: all .3s ease-in-out;-ms-transition: all .3s ease-in-out;-o-transition: all .3s ease-in-out;transition: all .3s ease-in-out;}
+.team figure .img-back {position: absolute;width: 100%;top:0;}
+.team figure .img-back, .team figure:hover .img-front {opacity: 0;visibility: hidden;}
+.team figure .img-front {opacity: 1;visibility: visible;}
+.team figure:hover .img-back {opacity: 0.6;visibility: visible;}
+
+/* Image Side / Text Side */
+.team.team-aside {position: relative;display: table;height: 100%;margin-bottom: -1px;}
+.team.team-aside .team-img {display: table-cell;width: 50%;}
+.team.team-aside .team-info {color:rgba(0,0,0,0.6);display: table-cell;height: 100%;width: 50%;vertical-align: top;padding: 1rem;overflow: hidden;}
+.team.team-aside .team-info .team-name {padding-top: 0;}
+.team.team-aside.team-left .team-info {text-align: left;padding-right: 1rem; position: relative;}
+.team.team-aside.team-right .team-info {text-align: right;padding-left: 1rem; position: relative;}
+.team.team-aside.team-right .team-social {left:auto;right:1rem;}
+.team.team-aside .team-info .team-social {position: absolute;bottom: 0;left:1rem;}
+
+/* Dark Style */
+.team.team-dark p {color:rgba(255,255,255,0.8);}
+.team.team-dark, .section-dark .team {color:#fff;}
+.team.team-dark .team-info, .section-dark .team-info {color:rgba(255,255,255,0.6);}
+.team.team-dark .team-info .team-name, .section-dark .team-info .team-name {color:#fff;}
+.team.team-dark .icon-line a, .section-dark .icon-line a{border:1px solid #3C3C3C; color:#C9C9C9 !important;}
+
+@media (max-width: 550px){
+  .team .team-img {max-width: 550px;}
+  .team.team-aside, .team.team-aside .team-img, .team.team-aside .team-info {display:block;width: 100%;}
+  .team.team-aside .team-info .team-social {position: relative;display: block;float: right;margin-top: 1rem;margin-right: 1rem;}
+}

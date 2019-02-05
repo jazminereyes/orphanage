@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+
+html, body
+{
+	margin: 0;
+}
+
+:focus { outline: none; }
+::-webkit-input-placeholder { color: #DEDFDF; }
+::-moz-placeholder { color: #DEDFDF; }
+:-moz-placeholder { color: #DEDFDF; }
+::-ms-input-placeholder { color: #DEDFDF; }
+
+body
+{
+	background: #27ae60;
+	color: #fff;
+	font-family: Lato, Open Sans, Helvetica Neue, Roboto, sans-serif;
+	text-decoration: none;
+	-webkit-font-smoothing: antialiased;
+}
+
+.user, .pass
+{
+  font-size: 20px;
+	background: #fff;
+  border: none;
+  border-radius: 8px;
+  height: 72px;
+  width: 99.5%;
+  margin-bottom: 10px;
+  /*opacity: 1;*/
+  text-indent: 20px;
+  transition: all .5s ease-in-out;
+  font-family: Lato, Open Sans;
+  font-weight: bold;
+}
+
+.user
+{
+	margin-top: 180px;
+
+}
+
+form 
+{
+  width: 450px;
+  height: 370px;
+  margin: -185px -225px;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+}
+img
+{
+	margin-top: 100px;
+	margin-left: 500px;
+}
+
+button
+{
+	background: #2ecc71;
+  	border: none;
+  	border-radius: 8px;
+  	color: #fff;
+  	cursor: pointer;
+  	height: 72px;
+  	width: 47%;
+  	font-family: Lato, Open Sans, Helvetica Neue, Roboto, sans-serif;
+  	text-decoration: none;
+  	font-size: 27px;
+  	font-weight: bold;
+  	margin-bottom: 10px;
+  	transition: all .5s cubic-bezier(.6,0,.4,1);
+}
+
+.signin-btn
+{
+	float: left;
+}
+
+.clear-btn
+{
+	float: right;
+}
+
+button:hover
+{
+	background: #27ae60;
+}
+
+.footer
+{
+	margin-top: 280px;
+	margin-left: 550px;
+	font-size: 20px;
+}
+
+a
+{
+	color: #fff;
+	text-decoration: none;
+	font-family: Lato, Open Sans;
+	font-weight: bold;	
+}

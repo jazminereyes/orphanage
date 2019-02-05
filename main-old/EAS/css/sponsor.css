@@ -1,0 +1,42 @@
+.btn-warning{
+    color: #ffffff;
+}
+
+.dt{
+	width: 150px;
+}
+
+.form-control{
+	display: inline-block;
+	margin-bottom: 10px;
+	margin-left: 10px;
+}
+
+.swd{
+	width: 300px;
+}
+
+.txt{
+	margin-left: 0px;
+}
+
+.nav-link.active{
+	background-color: #379863;
+}
+
+thead, tfoot{
+	background-color: #93e09c;
+}
+
+table{
+	border-color: rgba(1, 1, 1, 255, 0.2);
+}
+
+.card-header{
+	background-color: #499360;
+	color: #ffffff;
+}
+
+.head{
+	font-size: 25px;
+}

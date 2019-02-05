@@ -1,0 +1,32 @@
+/*!
+EVENTS
+*/
+
+.event {margin-bottom: 2rem;overflow: hidden;position: relative;}
+.event img {width: 100%;}
+.event a {webkit-transition: all .2s ease-in-out;-moz-transition: all .2s ease-in-out;transition: all .2s ease-in-out;}
+.event .event-medias {overflow: hidden;}
+.event .event-medias figure {display: block;}
+.event .event-info {display: table;clear: both; width: 100%;}
+.event .event-info .event-date {margin: 0.6rem 0 0.4rem 0;font-family: 'Montserrat',arial;font-size: 1.2rem;opacity: 0.7;}
+.event .event-info .event-title {font-family: 'Montserrat',arial;margin-bottom: 1.5rem;font-weight: 600; margin-top: 0.9rem;}
+.event .event-info .event-title {text-transform: uppercase;letter-spacing: 1px;font-size: 1.1rem;font-weight: 700;margin-bottom: 0.7rem;}
+.event .event-info h1.event-title {font-size: 2rem;}
+.event .event-info h2.event-title {font-size: 1.5rem;}
+.event .event-info h3.event-title {font-size: 1.2rem;}
+.event .event-info .event-desc p {font-size: 1.1rem;font-style:italic;}
+.event.event-gallery .event-info {border:none;}
+figure .event-meta li{color:rgba(255,255,255,0.8);display: inline-block;}
+figure .event-meta li span {color:rgba(255,255,255,.9);font-weight: 700;}
+@media (max-width: 992px){
+  .event .event-info h1.event-title {font-size: 1.8rem;}
+  .event .event-info h2.event-title {font-size: 1.3rem;}
+  .event .event-info h3.event-title {font-size: 1rem;}
+  .event .event-info .event-date {font-size: 1.1rem;}
+}
+@media (max-width:768px){
+  .event .event-info h1.event-title {font-size: 1.3rem;}
+  .event .event-info h2.event-title {font-size: 1.1rem;}
+  .event .event-info h3.event-title {font-size: 1rem;}
+  .event .event-info .event-date {font-size: 1rem;}
+}

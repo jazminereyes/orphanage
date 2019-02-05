@@ -1,0 +1,31 @@
+MGA PROBLEMA:
+1. ANO YUNG MGA CHART SA DASHBOARD? (Aralin yung Chart.js)
+2. ANO YUNG MGA REPORT?
+3. PAANO NA YUNG CASE STUDY? (Aralin yung phpoffice/phpword)
+- Either sa system (text editor) gagawa or upload and download lang ng files
+4. LAHAT NG INVENTORY
+- Asset method or expense method (?)
+- Credit memo & debit memo (?)
+- Separate adjustment of fixed assets and supplies
+- Add garage sale to release (Baguhin yung DB)
+- Edit remarks in adjustment
+5. AUTOMATIONS
+- Sponsor preference shortlist (Query lang)
+- Scholar application assessment (PHP-ML)
+- Scholar budget allocation (PHP-ML/Query)
+6. AUTHENTICATION OF SOCIAL WORKER (Webcamjs)
+7. VALIDATIONS (okay na yung dates)
+8. PATH OF PHOTOS
+9. FONT (Edit CSS)
+10. EAS (ADD SCHOLAR)
+- Copy and paste yung sa admin side
+11. SWEETALERT
+- Ayaw lumabas kapag naka-echo sa php
+12. CHANGE INSERT QUERIES TO PREPARED STATEMENTS
+
+DB
+- s_appform (lastSemAverage)
+- scholar(religion)
+
+FOR CHECKING:
+- EMAIL VALIDATION

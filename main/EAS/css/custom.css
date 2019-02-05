@@ -1,0 +1,25 @@
+.card-header {
+  padding: 0;
+}
+
+#box{
+  display: inline-block;
+}
+
+.content{
+  margin-left: 50px;
+}
+
+.photo{
+margin-bottom: 10px;
+}
+
+.card{
+  width: 250px;
+  height: 200px;
+  margin-top: 10px;
+  margin-left: 10px;
+  margin-right: 10px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}

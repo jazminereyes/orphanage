@@ -1,0 +1,9 @@
+.sidebar-dark-primary .nav-sidebar>.nav-item>.nav-link.active {
+    color: #fff;
+    background-color: #247d38;
+}
+
+.sidebar-dark-primary .nav-sidebar>.nav-item.menu-open>.nav-link, .sidebar-dark-primary .nav-sidebar>.nav-item:hover>.nav-link {
+    color: #fff;
+    background-color: #247d38;
+}

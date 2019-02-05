@@ -1,0 +1,27 @@
+hr{
+  margin: 0px;
+  margin-bottom: 5px;
+}
+
+#cbody{
+  padding-bottom: 0px;
+  padding-top: 10px;
+}
+
+#cb{
+  padding-left: 0px;
+  padding-right: 0px;
+}
+
+.tb{
+  border-radius: 0px;
+}
+
+.card-header{
+  background-color: #499360;
+  color: #ffffff;
+}
+
+.head{
+  font-size: 25px;
+}

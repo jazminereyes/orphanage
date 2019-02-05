@@ -1,0 +1,8 @@
+@media (min-width: 768px){
+      section {
+          padding: 150px 0;
+          background-image: url("../img/bgd.jpg");
+          background-repeat: no-repeat;
+          background-size: 200%;
+      }
+    }

@@ -1,0 +1,33 @@
+.cheader{
+	font-size: 30px;
+}
+
+#btn2, #btn1{
+	margin-top: 10px; 
+}
+
+.img-circle{
+	border-radius: 0%;
+}
+
+#cbody2, #cbody4{	
+	margin-left: 5px;
+}
+
+.form-control{
+	display: inline-block;
+	margin-left: 10px;
+	margin-bottom: 10px;
+}
+
+.input{
+ margin-left: 20px;
+}
+
+label{
+  margin-left: 20px;
+}
+
+.mdl{
+	margin-left: 0px;
+}

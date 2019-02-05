@@ -1,0 +1,114 @@
+
+.content {
+
+width: 800px;
+
+margin: 0px auto;
+
+background-color: #ffffff;
+
+padding: 0px;
+
+}
+
+h1 {
+
+color:#221A69;
+
+font-weight:normal;
+
+text-decoration:none;
+
+}
+
+.tabbed_content {
+
+background-color: #000000;
+}
+
+.tabs {
+
+height: 62px;
+
+position: relative;
+
+}
+
+.tabs .moving_bg {
+padding: 0px;
+background-color:#7F822A;
+background-image:url(../images/arrow_down_green.gif);
+position: absolute;
+z-index: 190;
+left: 0;
+padding-bottom: 29px;
+background-position: bottom left;
+background-repeat: no-repeat;
+
+}
+
+.tabs .tab_item {
+display: block;
+float: left;
+padding: 15px;
+color: #ffffff;
+text-align: center;
+z-index: 200;
+position: relative;
+cursor: pointer;
+
+}
+
+.tabbed_content .slide_content {
+
+overflow: hidden;
+
+background-color: #000000;
+
+padding: 20px 0 20px 20px;
+
+position: relative;
+
+width:600px;
+
+}
+
+.tabslider {
+
+width: 5000px;
+
+}
+
+.tabslider ul {
+
+float: left;
+
+width: 560px;
+
+margin: 0px;
+
+padding: 0px;
+
+margin-right: 40px;
+
+}
+
+.tabslider ul a {
+
+color: #ffffff;
+
+text-decoration: none;
+
+}
+
+.tabslider ul a:hover {
+
+color: #aaaaaa;
+
+}
+
+.tabslider ul li {
+
+padding-bottom: 7px;
+
+}

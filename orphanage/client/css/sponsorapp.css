@@ -1,0 +1,83 @@
+.example-modal .modal {
+        position: relative;
+        top: auto;
+        bottom: auto;
+        right: auto;
+        left: auto;
+        display: block;
+        z-index: 1;
+      }
+
+      .example-modal .modal {
+        background: transparent !important;
+      }
+
+      .form-control
+      {
+          margin-left: 10px;
+          margin-right: 20px;
+      }
+
+      section#contact {
+        background-color: #212529;
+        background-image: url("../img/footer.jpg");
+        background-repeat: no-repeat;
+        background-position: center;
+      }
+
+      @media (min-width: 768px){
+      section {
+          padding: 150px 0;
+          background-image: url("../img/bg4.jpg");
+          background-repeat: no-repeat;
+          background-size: 200%;
+      }
+    }
+
+      .swal-button 
+      {
+        background-color: #28a745;
+      }
+
+      select.form-custom:not([size]):not([multiple]) {
+          height: calc(2.25rem + 2px);
+          border: 2px solid black;
+          border-radius: 0px;
+          background-color: rgba(255,255,255,0);
+      }
+
+      .form-custom{
+        border: 2px solid black;
+        border-radius: 0px;
+        height: calc(2.25rem + 2px);
+        padding-left: 5px;
+        color: black;
+        background-color: rgba(255,255,255,0);
+      }
+
+      .input{
+            max-width: none;
+      }
+
+      .container{
+        text-align: left;
+      }
+
+      .col-custom{
+        padding-left: 0px;
+        padding-right: 0px;
+      }
+
+      .input__label-content--chisato::after {
+  content: attr(data-content);
+  position: absolute;
+  top: -200%;
+  left: 0;
+  color: #c55463;
+  font-weight: 800;
+}
+
+.input__field--chisato:focus,
+.input--filled .input__field--chisato {
+  border-color: #c55463;
+}

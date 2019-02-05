@@ -1,0 +1,51 @@
+.tabbed_content .slide_content {
+    overflow: hidden;
+    background-color: #f5f5f5;
+    padding: 20px 0 20px 20px;
+    position: relative;
+    width: 100%;
+}
+
+.tabbed_content {
+    background-color: rgb(245, 245, 245);
+    width: 100%;
+}
+
+.tabslider ul a {
+    color: #211f1f;
+    text-decoration: none;
+}
+
+.tabs .tab_item {
+    display: block;
+    float: left;
+    padding: 15px;
+    width: 33.33%;
+    color: #101010;
+    text-align: center;
+    z-index: 200;
+    position: relative;
+    cursor: pointer;
+}
+
+.tabs .moving_bg {
+    padding: 0px;
+    background-color: #ced4da;
+    background-image: url(../images/arrow_down_green.gif);
+    position: absolute;
+    width: 33.33%;
+    z-index: 190;
+    left: 0;
+    padding-bottom: 29px;
+    background-position: bottom left;
+    background-repeat: no-repeat;
+}
+
+.tabslider ul {
+    float: left;
+    width: 15%;
+    margin: 0px;
+    padding: 0px;
+    margin-right: 55px;
+    flex: 0 0 100%;
+}

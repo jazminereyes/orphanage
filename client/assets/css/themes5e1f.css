@@ -1,0 +1,795 @@
+/*!
+THEMES COLORS
+*/
+
+/* DARK THEME */
+body.dark-skin {background-color: #272727;color:#EDEDED;}
+.dark-skin p {color:#DDDDDD;}
+.dark-skin .img-cover p, .dark-skin .bg-white p {color:#424242;}
+.dark-skin .infobox, .dark-skin .infobox p, .dark-skin .white-modal, .dark-skin .white-modal p, .dark-skin .account-section {color: rgba(0,0,0,.7);}
+.dark-skin h1, .dark-skin h2, .dark-skin h3, .dark-skin h4, .dark-skin h5, .dark-skin h6, .dark-skin .h1, .dark-skin .h2, .dark-skin .h3, 
+.dark-skin .h4, .dark-skin .h5, .dark-skin .h6 {color:#fff;}
+.dark-skin .infobox .h1, .dark-skin .infobox .h2, .dark-skin .infobox .h3, .dark-skin .infobox .h4, .dark-skin .infobox .h5, .dark-skin .infobox .h6, 
+.dark-skin .infobox h1, .dark-skin .infobox h2, .dark-skin .infobox h3, .dark-skin .infobox h4, .dark-skin .infobox h5, .dark-skin .infobox h6,
+.dark-skin .account-section .h1, .dark-skin .account-section .h2, .dark-skin .account-section .h3, .dark-skin .account-section .h4, 
+.dark-skin .account-section .h5, .dark-skin .account-section .h6, .dark-skin .account-section h1, .dark-skin .account-section h2, 
+.dark-skin .account-section h3, .dark-skin .account-section h4, .dark-skin .account-section h5, .dark-skin .account-section h6,
+.dark-skin .amber  h1, .dark-skin .amber h2, 
+.dark-skin .amber h3, .dark-skin .amber h4, .dark-skin .amber h5, .dark-skin .amber h6,
+.dark-skin .img-light  h1, .dark-skin .img-light h2, 
+.dark-skin .img-light h3, .dark-skin .img-light  h4, .dark-skin .img-light h5, .dark-skin .img-light h6,
+.dark-skin .bg-white  h1, .dark-skin .bg-white h2, 
+.dark-skin .bg-white h3, .dark-skin .bg-white  h4, .dark-skin .bg-white h5, .dark-skin .bg-white h6 {color: #303030;}
+.dark-skin .img-light.section-newsletter .subtitle {color: rgba(0,0,0,.7)!important;}
+.dark-skin .amber .title .subtitle {color: rgba(0,0,0,.5) !important;}
+.dark-skin #page-title {background-color: #232323;}
+.dark-skin .breadcrumb a {color: rgba(255,255,255,0.7);}
+.dark-skin .breadcrumb span {color: rgba(255,255,255,0.5);}
+.dark-skin #wrapper {background-color: #272727;}
+.dark-skin a, .dark-skin a:hover, .dark-skin a:focus {color:#EDEDED;}
+.dark-skin .infobox a, .dark-skin .infobox a:focus, .dark-skin .infobox a:hover,
+.dark-skin .white-modal a, .dark-skin .white-modal a:focus, .dark-skin .white-modal a:hover,
+ .dark-skin .account-section a, .dark-skin .account-section a:focus, 
+.dark-skin .account-section a:hover {color: #121212;}
+.dark-skin .widget-posts .post .post-meta {color: rgba(255,255,255,0.5);}
+.dark-skin .widget .tags a {border:2px solid rgba(255,255,255,0.5);}
+.dark-skin.widget .tags a:hover, .dark-skin .tags a:hover {border: 2px solid transparent;}
+.dark-skin .widget-links li a {color: rgba(255,255,255,0.9);}
+.dark-skin .widget-links li a::before {color: rgba(255,255,255,0.6);}
+.dark-skin .widget-comments .comment p.comment-meta{color: rgba(255,255,255,0.5);}
+.dark-skin #main-navigation .main-nav-wrapper {background-color:#2D2D2D;}
+.dark-skin:not(.header-light) #main-navigation #main-menu > ul > li > a, .dark-skin:not(.header-light) #main-navigation .nav-right i, .dark-skin:not(.header-light) #main-navigation .tools-btn span{color: #ededed;}
+.dark-skin .widget-twitter .tweets-list li small { color: rgba(255,255,255,0.45);}
+.dark-skin .widget-twitter .tweets-list li img {display: none;}
+.dark-skin .widget-twitter .tweets-list li{list-style: none;}
+.dark-skin .widget-twitter .tweets-list {padding-left: 0;}
+.dark-skin #search.nav-search .search-close i {color: #BFBFBF;}
+.dark-skin code {background-color: rgba(0,0,0,0.3);}
+.dark-skin .icon-line a{border:1px solid #515151; color:#C9C9C9 !important;}
+.dark-skin .widget {border-bottom: 2px solid rgba(255,255,255,0.06);}
+.dark-skin .dropcap {color:#fff;}
+.dark-skin .t-dark, .dark-skin .t-dark h1, .t-dark h2, .dark-skin .t-dark h3, .dark-skin .t-dark h4, .dark-skin .t-dark h5, .dark-skin .t-dark a, .dark-skin i.t-dark {color:#fff !important;}
+.dark-skin .t-dark .subtitle {color:rgba(255,255,255,0.7);}
+.dark-skin .feature-box .feature-content p {color:rgba(255,255,255,0.6);}
+.dark-skin .feature-box .icon.icon-gray {background: rgba(0,0,0,.3);color: rgba(255,255,255,.8);}
+.dark-skin .bg-light, .dark-skin .bg-light p, .dark-skin .bg-white, .dark-skin .bg-white p  {color:#252525;}
+.dark-skin .grey.lighten-4 {background-color: #363636!important;}
+.dark-skin .testimonial .comment {color: rgba(255,255,255,0.6);}
+.dark-skin .img-light .testimonial .comment {color: rgba(0,0,0,0.6);}
+.dark-skin .tp-caption-dark {color:#fff;}
+.dark-skin .form-group label {color:#C9C9C9;}
+.dark-skin .form-group label {color:#C9C9C9;}
+.dark-skin .infobox .form-group label, .dark-skin .white-modal .form-group label {color:#3B3B3B;}
+.dark-skin .select2-results {color:#202020;}
+.dark-skin .panel-accordion .h1, .dark-skin .panel-accordion .h2, .dark-skin .panel-accordion .h3, .dark-skin .panel-accordion .h4, .dark-skin .panel-accordion .h5, .dark-skin .panel-accordion .h6, .dark-skin .panel-accordion h1, .dark-skin .panel-accordion h2, .dark-skin .panel-accordion h3, .dark-skin .panel-accordion h4, .dark-skin .panel-accordion h5, .dark-skin .panel-accordion h6 {color:#121212;}
+.dark-skin .panel-accordion p, .dark-skin .panel-accordion .feature-box .feature-content p {color:#4F4F4F;}
+.dark-skin .feature-box .icon.icon-simple {color: rgba(255,255,255,0.7);}
+.dark-skin .img-cover .feature-box .icon.icon-simple {color: rgba(0,0,0,.7);}
+.dark-skin .table a {color:#373a3c;}
+.dark-skin .border-top {border-top: 1px solid #333333!important;}
+.dark-skin .separator.separator-fade .mask:after {  box-shadow: 0 0 8px rgba(255,255,255,.2);}
+.dark-skin .separator.separator-fade span { box-shadow: 0 2px 4px rgba(255,255,255,.4); background: #272727;}
+.dark-skin .separator { color: rgba(255,255,255,.2); }
+.dark-skin .separator.separator-line .mask:after { border: 2px solid rgba(255,255,255,.1);}
+.dark-skin .separator.separator-fade span i { border: 1px dashed #5F5F5F;}
+.dark-skin .separator i {color: rgba(255,255,255,.3);}
+.dark-skin .separator.separator-line span { border: 2px solid rgba(255,255,255,.12); background: #272727;}
+.dark-skin .team .team-info .team-name {color:#fff;}
+.dark-skin .item .item-meta, .dark-skin .item .item-meta a {color:rgba(255,255,255,0.6);}
+.dark-skin .title.title-line h1:after,.dark-skin .title.title-line h2:after,.dark-skin .title.title-line h3:after,.dark-skin .title.title-line h4:after,.dark-skin .title.title-line h5:after,.dark-skin .title.title-line.title-center h1:before,.dark-skin .title.title-line.title-center h2:before,.dark-skin .title.title-line.title-center h3:before,.dark-skin .title.title-line.title-center h4:before,.dark-skin .title.title-line.title-center h5:before,.dark-skin .title.title-line.title-center>p:before,.dark-skin .title.title-line.title-center>span:before,.dark-skin .title.title-line.title-right h1:before,.dark-skin .title.title-line.title-right h2:before, .dark-skin .title.title-line.title-right h3:before, .dark-skin .title.title-line.title-right h4:before, .dark-skin .title.title-line.title-right h5:before, .dark-skin .title.title-line.title-right>p:before, .dark-skin .title.title-line.title-right>span:before, .dark-skin .title.title-line>p:after, .dark-skin .title.title-line>span:after {   border-bottom: 3px solid rgba(255,255,255,.04);}
+.dark-skin .account .account-menu { border: 1px solid rgba(255,255,255,0.1);}
+.dark-skin .account .account-menu ul li {border-bottom: 1px solid #3C3C3C;}
+.dark-skin .account .account-menu ul li a:hover {background: rgba(255,255,255,0.1);color:#fff !important;}
+.dark-skin .counter .count-subtitle {color:#CFCFCF;}
+.dark-skin .post .post-info .post-meta li {color: rgba(255,255,255,.5);}
+.dark-skin .post .post-info .post-meta li a {color: rgba(255,255,255,.8);}
+.dark-skin .review_bottom_ornament_triangle { border-top: 10px solid rgba(255,255,255,.2);}
+.dark-skin .review_bottom_ornament_triangle:after {border-top: 9px solid #272727;}
+.dark-skin .review_bottom_ornament_line, .dark-skin .review_top_ornament_line, .dark-skin .review_top_ornament_quotemark {border-top: solid 1px rgba(255,255,255,.2);}
+.dark-skin .review_top_ornament_quotemark {border-top: none;}
+.dark-skin .review_top_ornament_quotemark {color: rgba(255,255,255,.2);}
+.dark-skin .img-light .review_bottom_ornament_triangle { border-top: 10px solid rgba(0,0,0,.16)}
+.dark-skin .img-light .review_bottom_ornament_triangle:after {border-top: 9px solid #fff;}
+.dark-skin .img-light .review_bottom_ornament_line, .dark-skin .img-light .review_top_ornament_line, .dark-skin .img-light .review_top_ornament_quotemark {border-top:solid 1px rgba(0,0,0,.1);}
+.dark-skin .img-light .review_top_ornament_quotemark {color: rgba(0,0,0,.1);}
+.dark-skin .testimonial .client-info {color:#D4D4D4;}
+.dark-skin .testimonial .testimonial-content {color: rgba(255,255,255,.6);}
+.dark-skin .img-light .testimonial .client-info {color:#232323;}
+.dark-skin .clients-boxed [class*="col-"] {border-right:1px dashed rgba(255,255,255,0.15);border-bottom:1px dashed rgba(255,255,255,0.15);}
+.dark-skin #blog-main { background: #272727;}
+.dark-skin #sidebar-left:after, .dark-skin #sidebar-right:after, .dark-skin .sidebar-left:after, .dark-skin .sidebar-right:after {background:#2F2F2F;}
+.dark-skin .blog-timeline .post::before {border-top: 1px dashed rgba(255,255,255,.2);}
+.dark-skin .blog-timeline .posts::before {  border-left: 1px dashed rgba(255,255,255,.2);}
+.dark-skin .posts .post {border-bottom: 1px solid rgba(255,255,255,.07);}
+.dark-skin .posts .post:last-child {border-bottom: none;}
+.dark-skin .pagination-wrapper ul li {background: #121212;border-right: 1px solid #2A2A2A;border-top: 1px solid #2A2A2A;border-bottom: 1px solid #2A2A2A;}
+.dark-skin .pagination-wrapper ul li a {color:#F6F6F6;}
+.dark-skin .pagination li.active {background: #2C2C2C;border-right: 1px solid #454545;border-top: 1px solid #454545;border-bottom: 1px solid #454545;}
+.dark-skin .pagination li:not(.disabled):not(.active):hover {background: #2C2C2C;color:#fff !important;}
+.dark-skin .pagination>li:not(.active)>a:focus, .dark-skin .pagination>li>a:hover, .dark-skin .pagination>li>span:focus, .dark-skin .pagination>li>span:hover {color:#fff !important;}
+.dark-skin .items-filter li a {color: #D9D9D9;}
+.dark-skin .btn-dark.btn-bordered {color: #E2E2E2!important;border: 2px solid #E2E2E2;}
+.dark-skin .btn-dark.btn-bordered:hover {background: #fff;color: #232323!important;}
+.dark-skin .section-call-to-action:not(.bg-primary) p.action-subtitle {color: rgba(255,255,255,.4);}
+.dark-skin .btn-dark:not(.btn-bordered) {background-color: #fff;color: #383737!important;}
+.dark-skin .infobox .btn-dark:not(.btn-bordered) {background-color: #383737;color: #fff!important;}
+.dark-skin .infobox .btn-dark:not(.btn-bordered):hover {background-color: #141414;}
+.dark-skin .btn-primary.btn-bordered {color: #fff!important;}
+.dark-skin .title.title-line-bottom::after {border-bottom: 2px dashed #DADADA;}
+.dark-skin .section-page #page-content, .dark-skin .section-page .page-content {background-color: #272727;}
+.dark-skin .counter i {color: rgba(255,255,255,.3);}
+.dark-skin .lighten-1 .counter i {color: rgba(0,0,0,.3);}
+.dark-skin .lighten-1 .countup {color: #373a3c;}
+.dark-skin .lighten-1 .counter p {color: #000;}
+.dark-skin .lighten-1 .counter .count-subtitle {color: rgba(0,0,0,.4);}
+.dark-skin .progress {background: #5D5D5D;}
+.dark-skin .panel-group .panel-default {border: 2px solid rgba(255,255,255,.1);}
+.dark-skin .section-faq .faq-question { border-bottom: 1px solid rgba(255,255,255,.1);}
+.dark-skin #secondary-nav {background: #fff;color: #232323;}
+.dark-skin .switcher label {color: #232323;}
+.dark-skin .switcher .fieldset {border: 1px solid rgba(0,0,0,.4);}
+.dark-skin.header-transparent.transparent-dark.topnav-top .toggle-menu span:not(.menu-label), .dark-skin.header-transparent.transparent-dark.topnav-top .toggle-menu span:not(.menu-label)::after, .dark-skin.header-transparent.transparent-dark.topnav-top .toggle-menu span:not(.menu-label)::before {background: #fff;}
+.dark-skin .section-portfolio .title p:not(.subtitle) {color: rgba(255,255,255,.4);}
+.dark-skin .tags a, .dark-skin .widget .tags a {border: 2px solid rgba(255,255,255,.1);}
+.dark-skin .product-single.brown.lighten-5 {background-color: #383635!important;}
+.dark-skin .fc th, .dark-skin  thead .fc-head-container .dark-skin .fc-unthemed .fc-row, .dark-skin .fc-unthemed thead, .dark-skin thead .fc-widget-header { background: #121212;color: #fff;}
+.dark-skin .fc-unthemed .fc-divider, .dark-skin .fc-unthemed .fc-popover, .dark-skin .fc-unthemed .fc-row, .dark-skin .fc-unthemed tbody, .dark-skin .fc-unthemed td, .dark-skin .fc-unthemed th, .dark-skin .fc-unthemed thead {border-color: #3E3E3E;}
+.dark-skin .fc-time-grid table {background-color: #1E1E1E!important;}
+.dark-skin .fc-view-container *, .dark-skin .fc-view-container :after, .dark-skin .fc-view-container :before {color:#fff;}
+.dark-skin .menu-restaurant .menu-line {border-bottom: 1px dotted rgba(255,255,255,.3);}
+.dark-skin section:not(.img-light) .testimonial .testimonial-content {color: rgba(255,255,255,.6); border: 1px solid #363636; background-color: #1A1A1A;}
+.dark-skin .testimonial .testimonial-content::before { background: #1A1A1A;border-bottom: 1px solid #363636;border-right: 1px solid #363636;}
+.dark-skin section:not(.img-light) .testimonial .testimonial-meta .testimonial-subtitle {color: rgba(255,255,255,.7);}
+.dark-skin section:not(.img-light) .testimonial.style-2 .testimonial-content::after {color: rgba(255,255,255,.15);}
+.dark-skin section:not(.img-light) .owl-theme .owl-dots .owl-dot span {background: rgba(255,255,255,.2);}
+.dark-skin section:not(.img-light) .owl-theme .owl-dots .owl-dot.active span, .dark-skin section:not(.img-light) .owl-theme .owl-dots .owl-dot:hover span {background: rgba(255,255,255,.4);}
+.dark-skin section:not(.img-light) .testimonial .testimonial-meta .testimonial-name {color:rgba(255,255,255,0.8);}
+.dark-skin .builder .btn-dark.btn-bordered { color: #383737!important;border: 1px solid #383737;}
+.dark-skin .builder .btn-dark:not(.btn-bordered) { background-color: #383737; color: #fff!important;}
+.dark-skin .builder .btn-dark:hover {background-color: #141414;}
+.dark-skin .builder .btn-dark.btn-bordered:hover {background: #232323;color: #fff!important;}
+.dark-skin .coupon-wrapper {background: #3C3C3C;}
+.dark-skin table {color:#BFC6CB;}
+.dark-skin .table.table-cart a {color: #EDEDED;}
+.dark-skin .quantity {border: 2px solid #484747;}
+.dark-skin .quantity .minus, .dark-skin .quantity .plus {color: #EDEDED;}
+.dark-skin .quantity .plus { border-bottom:none;}
+.dark-skin .quantity .minus:hover, .dark-skin .quantity .plus:hover {background: #303030;}
+.dark-skin  .table-cart.table>tbody>tr {border-top: 1px dashed #515151;}
+.dark-skin .table-cart.table>tbody>tr:first-child {border-top: none;}
+.dark-skin .quantity input {color:#303030;}
+.dark-skin .product-single .product-wishlist {color: rgba(255,255,255,.5);}
+.dark-skin .product-top-info {border-bottom: 1px solid #3F3F3F;}
+.dark-skin .product-single .product-info .product-tabs li.active a, .dark-skin .product-single .product-info .product-tabs li:hover a {color: rgba(255,255,255,.9);}
+.dark-skin .product-single .product-info .product-tabs {border-top: 2px solid #393939;border-bottom: 2px solid #393939;}
+.dark-skin .product-single .product-info .product-tabs li a {color: rgba(255,255,255,.4);}
+.dark-skin .product-single .product-info #details {border-bottom: 2px solid #393939;}
+.dark-skin .product-single .product-info #info .table>tbody>tr>td, .dark-skin .product-single .product-info #info .table>tbody>tr>th, 
+.dark-skin .product-single .product-info #info .table>tfoot>tr>td, .dark-skin .product-single .product-info #info .table>tfoot>tr>th, 
+.dark-skin .product-single .product-info #info .table>thead>tr>td, .dark-skin .product-single .product-info #info .table>thead>tr>th,
+.dark-skin .product-single .product-info #reviews .reviews-list .media {border-bottom: 1px solid #393939;}
+.dark-skin .product-single .product-info #reviews .review-date {color: rgba(255,255,255,.4);}
+.dark-skin .product-single .product-info .product-tabs li a.active, .dark-skin .product-single .product-info .product-tabs li.active a, .dark-skin .product-single .product-info .product-tabs li:hover a {color: rgba(255,255,255,.9);}
+.dark-skin .section-newsletter .subtitle {color: rgba(255,255,255,.7)!important;}
+.dark-skin .product {background: #3E3E3E;}
+.dark-skin .product .product-overlay .product-quickview a, .dark-skin .product .product-overlay i {color:#EDEDED;text-shadow: none;}
+.dark-skin .product .product-info .product-price {color:#EFEFEF;}
+.dark-skin .owl-carousel .owl-nav [class*=owl-] {color:#EFEFEF;}
+.dark-skin .deep-purple.lighten-5 {background-color: #3F3D44!important}
+.dark-skin .checklist li.checked a{color:#fff;}
+.dark-skin .checklist li a {color: #E0E2E8 !important;}
+.dark-skin .checklist a .x, .dark-skin .checklist a .y {background: #fff;}
+.dark-skin  table {background: #3A3A3A;}
+.dark-skin .indigo.lighten-4 {background-color: #444652!important;}
+.dark-skin .teal.lighten-5 {background-color: #343A39!important;}
+.dark-skin .table-bordered {border: none}
+.dark-skin .nav>li>a { color: rgba(255,255,255,.4);}
+.dark-skin .nav-tabs>li>a:hover {color: #DEDEDE!important;}
+.dark-skin .nav-tabs {border-bottom: 2px solid #383838;}
+.dark-skin .nav-tabs>li>a.active, .dark-skin .nav-tabs>li>a.active:focus, .dark-skin .nav-tabs>li>a.active:hover {color:#F1F1F1;background-color:#272727;border: 2px solid #383838;border-bottom-color: transparent;}
+.dark-skin .tab-bordered .tab-content {border-left: 2px solid #383838;border-right: 2px solid #383838;border-bottom: 2px solid #383838;}
+.dark-skin .tab-left .nav-tabs>li>a.active, .dark-skin .tab-left .nav-tabs>li>a.active:focus, .dark-skin .tab-left .nav-tabs>li>a.active:hover {border: 2px solid #383838;border-right-color: transparent;}
+.dark-skin .tab-left .tab-content {border-left: 2px solid #383838;}
+.dark-skin .tab-left.tab-bordered .tab-content {border-top: 2px solid #383838;}
+.dark-skin .panel-accordion.dark-accordion .panel-heading a.collapsed {background-color: #272727;border: 2px solid #272727;}
+.dark-skin .panel-accordion.panel-button .panel-default .panel-heading {background-color: transparent;border-color: transparent;}
+.dark-skin .panel-accordion.panel-button .panel-group .panel-default {border: none;}
+.dark-skin .panel-accordion.panel-button .panel-heading a, .dark-skin .panel-accordion.panel-button .panel-heading a.collapsed, 
+.dark-skin .panel-accordion.panel-button.dark-accordion .panel-heading a,
+.dark-skin .panel-accordion.panel-button .panel-collapse .panel-body {background-color: transparent;}
+.dark-skin .panel-accordion.panel-button .panel-heading h4>a:after {background:#fff;}
+.dark-skin .panel-accordion.panel-button.panel-group .panel-default {border:none;}
+.dark-skin .panel-accordion.panel-button.panel-default .panel-heading a {color:#EAEAEA;}
+.dark-skin .panel-accordion.panel-button .h1, .dark-skin .panel-accordion.panel-button .h2, .dark-skin .panel-accordion.panel-button .h3, .dark-skin .panel-accordion.panel-button .h4, .dark-skin .panel-accordion.panel-button .h5, .dark-skin .panel-accordion.panel-button .h6, .dark-skin .panel-accordion.panel-button h1, .dark-skin .panel-accordion.panel-button h2, .dark-skin .panel-accordion.panel-button h3, .dark-skin .panel-accordion.panel-button h4, .dark-skin .panel-accordion.panel-button h5, .dark-skin .panel-accordion.panel-button h6 {color:#fff;}
+.dark-skin .panel-accordion.panel-button .feature-box .feature-content p, .dark-skin .panel-accordion.panel-button p {color: #CACACA;}
+.dark-skin .panel-accordion.panel-button .panel-heading a, .dark-skin .panel-accordion.panel-button .panel-heading a.collapsed, .dark-skin .panel-accordion.dark-accordion.panel-button .panel-heading a {color: #F2F2F2;}
+.dark-skin .panel-accordion.panel-button .panel-default .panel-heading a {color:#D3D3D3;}
+.dark-skin .panel-accordion.panel-button .panel-default .panel-heading a.collapsed:hover {color:#F2F2F2;}
+.dark-skin .countdown-block span {color:#fff;}
+.dark-skin .section-call-to-action.action-bordered {border: 1px solid rgba(255,255,255,.1);}
+.dark-skin .countdown-block:not(:last-child) {border-right: 2px solid rgba(255,255,255, .05);}
+.dark-skin .countdown-block {color:rgba(255,255,255,0.5);}
+.dark-skin .feature-box .icon.icon-line, .section-dark .feature-box .icon.icon-line {border: 1px solid rgba(255,255,255,.15);color: rgba(255,255,255,.6);}
+.dark-skin .feature-box.boxed .icon.icon-line {background: #272727;}
+.dark-skin .feature-box.boxed {border: 1px solid rgba(255,255,255,.1);}
+.dark-skin .owl-theme .owl-dots .owl-dot span {background:#B9B9B9;}
+.dark-skin .owl-theme .owl-dots .owl-dot.active span, .dark-skin .owl-theme .owl-dots .owl-dot:hover span {background:#DEDEDE;}
+.dark-skin .testimonial .testimonial-meta .testimonial-name {color: rgba(255,255,255,.8);}
+.dark-skin .testimonial .testimonial-meta .testimonial-subtitle {color: rgba(255,255,255,.7);}
+.dark-skin .testimonial .testimonial-content {color: rgba(255,255,255,.6);border: 1px solid #3C3C3C;background-color: #1B1B1B;}
+.dark-skin .testimonial .testimonial-meta .testimonial-name {color: rgba(255,255,255,.8);}
+.dark-skin .dropcap.dropcap-line {border: 1px solid rgba(255,255,255,.1);}
+.dark-skin .row.posts .post {background: #272727;}
+
+@media (max-width: 768px){
+  .dark-skin .clients .row:last-child [class*="col-"] {border-bottom:1px dashed rgba(255,255,255,0.15);}
+
+
+}
+
+/* BLUE THEME */
+.theme-blue a:not(.btn):not(.fc-event):hover, .theme-blue #search.nav-search.search-open input, .theme-blue #search.nav-search.search-open input:focus, .theme-blue .breadcrumb a:hover, .theme-blue .categories-list li a:hover, .theme-blue .categories-list li a.current,.theme-blue .header-dark .categories-list li a:hover,.theme-blue .item .item-meta a:hover,.theme-blue .testimonial .testimonial-meta .testimonial-subtitle a,.theme-blue .search-overlay form,.theme-blue header .blog-meta li a:hover,.theme-blue header.header-dark .blog-meta li a:hover,.theme-blue .post .post-info .post-meta a:hover,.theme-blue .post .post-info .post-meta a.comments:hover,.theme-blue .post-single .post-nav a:hover .prev-icon, .theme-blue .post-single .post-nav a:hover .next-icon,.theme-blue .posts .post .more,.theme-blue .blog-square .post .post-comments a:hover,.theme-blue .blog-timeline .posts .post:hover .post-date,.theme-blue .pagination li:not(.disabled) a:hover,.theme-blue .shop-breadcrumb ul li a:hover,.theme-blue #footer .widget-text a, .theme-blue #footer .widget-twitter a,.theme-blue .datepicker thead tr th.prev, .theme-blue .datepicker thead tr th.next,.theme-blue figure.he-2 a:hover,.theme-blue #main-navigation #main-menu > ul > li.current > a,  .theme-blue #main-navigation #main-menu > ul .is-open,.theme-blue #main-navigation #main-menu > ul > li.current i,.theme-blue .header-dark #main-navigation #main-menu > ul > li > a.is-open, .theme-blue .header-dark #main-navigation #main-menu > ul > li.current > a,.theme-blue .header-transparent.topnav-top #main-navigation #main-menu > ul > li.current > a,.theme-blue .hover-effect-2 a:hover span,.theme-blue header#main-navigation .current > a span::before,.theme-blue .c-primary,.theme-blue .text-primary,.theme-blue .shortcode-question span,.theme-blue #icons-wrapper ul li:hover i,.theme-blue .widget-twitter .tweets-list li a,.theme-blue .widget-links li a:hover,.theme-blue .required:after,.theme-blue .form-group.form-grouped.required:after,.theme-blue code,.theme-blue .header-icon,.theme-blue.header-dark #main-navigation #main-menu > ul > li > a.is-open, .theme-blue.header-dark #main-navigation #main-menu > ul > li.current > a,.theme-blue .creative-element .title .subtitle,.theme-blue .title h1 span, .theme-blue .title h2 span, .theme-blue .title h3 span, .theme-blue .title h4 span, .theme-blue .title h5 span,html.split-bordered .theme-blue #main-navigation #main-menu > ul > li.active > a,.theme-blue .erinyen .tp-tab-title 
+,.theme-blue .items-filter li a:hover, .theme-blue .items-filter li a.current, .theme-blue .header-dark .items-filter li a:hover, .theme-blue .header-dark .items-filter li a.current
+,.theme-blue.header-transparent.topnav-top #main-navigation #main-menu > ul > li.current > a,
+.theme-blue .posts .post .more,
+.theme-blue .cart-wrapper .cart-subtotal td:first-child, .theme-blue .cart-wrapper .cart-total td:first-child,
+.theme-blue .product .product-info .add-to-cart, .theme-blue .product .product-info .view-cart,
+.theme-blue .product .product-info .product-new-price,
+.theme-blue .rating .fa-star, .theme-blue .rating .fa-star-half-o,
+.theme-blue.header-dark #main-aside-navigation #main-aside-menu>ul>li>a.is-open,
+.theme-blue.clean-design .title .subtitle,
+.theme-blue .grouped-item .grouped-item-price,
+.theme-blue .title .subtitle,
+.theme-blue .tp-caption.Newspaper-subtitle,
+.theme-blue.header-scroll-dark #main-navigation #main-menu>ul>li.current>a, .theme-blue.header-scroll-dark #main-navigation .main-menu>ul>li.current>a,
+.theme-blue .feature-box .feature-content p.subtitle,
+.theme-blue .product-quick-desc,
+.theme-blue .subtitle,
+.theme-blue #search.nav-search.search-open input, 
+.theme-blue #search.nav-search.search-open input:focus, 
+.theme-blue .search.nav-search.search-open input, 
+.theme-blue .search.nav-search.search-open input:focus,
+.theme-blue figure.he-quote figcaption .quote-wrapper blockquote .quote-author
+ {color:#66B4CE}
+.theme-blue .c-primary, .theme-blue .text-primary,
+.theme-blue #main-aside-navigation #main-aside-menu>ul .is-open, 
+.theme-blue #main-aside-navigation #main-aside-menu>ul>li.current i, 
+.theme-blue #main-aside-navigation #main-aside-menu>ul>li.current>a, 
+.theme-blue .header-dark #main-aside-navigation #main-aside-menu>ul>li.current>a, 
+.theme-blue .header-dark #main-aside-navigation #main-aside-menu>ul>li>a.is-open,
+.theme-blue.split-screen #main-menu li.active a,
+html.split-bordered .theme-blue #main-navigation #main-menu>ul>li.active>a,
+.theme-blue #main-navigation #main-menu>ul .is-open, 
+.theme-blue #main-navigation #main-menu>ul>li.current i, 
+.theme-blue #main-navigation #main-menu>ul>li.current>a, 
+.theme-blue #main-navigation .main-menu>ul .is-open, 
+.theme-blue #main-navigation .main-menu>ul>li.current i, 
+.theme-blue #main-navigation .main-menu>ul>li.current>a {color:#66B4CE !important;}
+.theme-blue .bg-primary,.theme-blue .btn-primary:not(.btn-bordered), .theme-blue .btn-primary:not(.btn-bordered).active, 
+.theme-blue .btn-primary:not(.btn-bordered).focus, .theme-blue .btn-primary:not(.btn-bordered):active, .theme-blue .btn-primary:not(.btn-bordered):focus, 
+.theme-blue .btn-primary:hover, .theme-blue .open>.dropdown-toggle.btn-primary,.theme-blue .btn-primary.btn-bordered:hover,
+.theme-blue .sort-options .select-filters .select-filter ul li a:hover,.theme-blue .select2-container--default .select2-selection--multiple .select2-selection__choice,.theme-blue .label-primary,.theme-blue .datepicker table tr td.active:hover,.theme-blue .datepicker table tr td.active:hover:hover,.theme-blue .datepicker table tr td.active.disabled:hover,.theme-blue .datepicker table tr td.active.disabled:hover:hover,.theme-blue .datepicker table tr td.active:focus,.theme-blue .datepicker table tr td.active:hover:focus,.theme-blue .datepicker table tr td.active.disabled:focus,.theme-blue .datepicker table tr td.active.disabled:hover:focus,.theme-blue .datepicker table tr td.active:active,.theme-blue .datepicker table tr td.active:hover:active,.theme-blue .datepicker table tr td.active.disabled:active,.theme-blue .datepicker table tr td.active.disabled:hover:active,.theme-blue .datepicker table tr td.active.active,.theme-blue .datepicker table tr td.active:hover.active,.theme-blue .datepicker table tr td.active.disabled.active,.theme-blue .datepicker table tr td.active.disabled:hover.active,.theme-blue .open .dropdown-toggle.datepicker table tr td.active,.theme-blue .open .dropdown-toggle.datepicker table tr td.active:hover,.theme-blue .open .dropdown-toggle.datepicker table tr td.active.disabled,.theme-blue .open .dropdown-toggle.datepicker table tr td.active.disabled:hover,.theme-blue .datepicker table tr td span.active:hover, .theme-blue .datepicker table tr td span.active:hover:hover, .theme-blue .datepicker table tr td span.active.disabled:hover, .theme-blue .datepicker table tr td span.active.disabled:hover:hover, .theme-blue .datepicker table tr td span.active:focus, .theme-blue .datepicker table tr td span.active:hover:focus, .theme-blue .datepicker table tr td span.active.disabled:focus, .theme-blue .datepicker table tr td span.active.disabled:hover:focus, .theme-blue .datepicker table tr td span.active:active, .theme-blue .datepicker table tr td span.active:hover:active, .theme-blue .datepicker table tr td span.active.disabled:active, .theme-blue .datepicker table tr td span.active.disabled:hover:active, .theme-blue .datepicker table tr td span.active.active, .theme-blue .datepicker table tr td span.active:hover.active, .theme-blue .datepicker table tr td span.active.disabled.active, .theme-blue .datepicker table tr td span.active.disabled:hover.active, .theme-blue .open .dropdown-toggle.datepicker table tr td span.active, .theme-blue .open .dropdown-toggle.datepicker table tr td span.active:hover, .theme-blue .open .dropdown-toggle.datepicker table tr td span.active.disabled, .theme-blue .open .dropdown-toggle.datepicker table tr td span.active.disabled:hover,
+.theme-blue input[type="radio"] + label::after,.theme-blue input[type="checkbox"] + label::after,.theme-blue .switcher .switch,
+.theme-blue .ui-slider .ui-slider-range, .theme-blue .ui-slider .ui-slider-handle,.theme-blue .select-filter ul li:hover a:before, 
+.theme-blue .select-filter ul li.selected a:before,.theme-blue .widget .tags a:hover, .theme-blue .tags a:hover,
+.theme-blue .price-plan.plan-primary .plan-header, 
+.theme-blue .price-plan.plan-primary .plan-info, .theme-blue .alert-primary,
+.theme-blue #footer.bg-primary,
+.theme-blue #royal_preloader.royal_preloader_progress .royal_preloader_meter,
+.theme-blue figure.he-link {background-color:#66B4CE !important;}
+.theme-blue .form-control:focus, .theme-blue .form-group.form-grouped.focused,.theme-blue .price-plan.plan-primary .plan-header, .theme-blue .price-plan.plan-primary .plan-info,
+.theme-blue .price-plan.plan-primary {border-color: #66B4CE;}
+.theme-blue .btn-primary.btn-bordered,.theme-blue .select2-dropdown,.theme-blue .select2-container--default.select2-container--focus .select2-selection--multiple,.theme-blue .select2-container--open .select2-selection--single, .theme-blue .focused .bootstrap-tagsinput,.theme-blue .widget .tags a:hover, 
+.theme-blue .tags a:hover {border:2px solid #66B4CE;}
+.theme-blue .ui-slider .ui-slider-handle{border: 3px solid #66B4CE;}
+.theme-blue .blog-timeline .posts .post:hover::before {border-top:1px dashed #66B4CE;}
+.theme-blue .btn-primary:not(.btn-bordered):hover {background:#5F9EB3 !important;}
+.theme-blue .section-overlay.overlay-primary {background:rgba(102, 180, 206,.8)!important;}
+.theme-blue .video-overlay.overlay-primary:before { background: rgba(102, 180, 206,.3);}
+.theme-blue .title.title-line-primary::after {border:1px solid #66B4CE;}
+.theme-blue .blog-timeline .posts .post:hover .post-date {border:2px solid #66B4CE;color:#66B4CE !important;}
+.theme-blue .select2-container--default.select2-container--focus .select2-selection--multiple, 
+.theme-blue .select2-container--default.select2-container--open.select2-container--above .select2-selection--multiple, 
+.theme-blue .select2-container--default.select2-container--open.select2-container--above .select2-selection--single {border: 2px solid #66B4CE !important;}
+.theme-blue .progress-bar-primary, .theme-blue .progress-bar-primary[value]::-webkit-progress-value {background-color: #66B4CE;}
+.theme-blue .pricing-box-featured {border:5px solid #66B4CE;}
+.theme-blue .pricing-box-featured .pricing-box-title {background-color:#66B4CE;}
+
+/* INDIGO THEME */
+.theme-indigo a:not(.btn):not(.fc-event):hover,.theme-indigo #search.nav-search.search-open input, .theme-indigo #search.nav-search.search-open input:focus, .theme-indigo .breadcrumb a:hover, .theme-indigo .categories-list li a:hover, .theme-indigo .categories-list li a.current,.theme-indigo .header-dark .categories-list li a:hover,.theme-indigo .item .item-meta a:hover,.theme-indigo .testimonial .testimonial-meta .testimonial-subtitle a,.theme-indigo .search-overlay form,.theme-indigo header .blog-meta li a:hover,.theme-indigo header.header-dark .blog-meta li a:hover,.theme-indigo .post .post-info .post-meta a:hover,.theme-indigo .post .post-info .post-meta a.comments:hover,.theme-indigo .post-single .post-nav a:hover .prev-icon, .theme-indigo .post-single .post-nav a:hover .next-icon,.theme-indigo .posts .post .more,.theme-indigo .blog-square .post .post-comments a:hover,.theme-indigo .blog-timeline .posts .post:hover .post-date, .theme-indigo .pagination li:not(.disabled) a:hover,.theme-indigo .shop-breadcrumb ul li a:hover,.theme-indigo #footer .widget-text a, .theme-indigo #footer .widget-twitter a,.theme-indigo .datepicker thead tr th.prev, .theme-indigo .datepicker thead tr th.next,.theme-indigo figure.he-2 a:hover,.theme-indigo #main-navigation #main-menu > ul > li.current > a,  .theme-indigo #main-navigation #main-menu > ul .is-open,.theme-indigo #main-navigation #main-menu > ul > li.current i,.theme-indigo .header-dark #main-navigation #main-menu > ul > li > a.is-open, .theme-indigo .header-dark #main-navigation #main-menu > ul > li.current > a,.theme-indigo .header-transparent.topnav-top #main-navigation #main-menu > ul > li.current > a,.theme-indigo .hover-effect-2 a:hover span,.theme-indigo header#main-navigation .current > a span::before,.theme-indigo .c-primary,.theme-indigo .text-primary,.theme-indigo .shortcode-question span,.theme-indigo #icons-wrapper ul li:hover i,.theme-indigo .widget-twitter .tweets-list li a,.theme-indigo .widget-links li a:hover,.theme-indigo .required:after,.theme-indigo .form-group.form-grouped.required:after,.theme-indigo code,.theme-indigo .header-icon,.theme-indigo.header-dark #main-navigation #main-menu > ul > li > a.is-open, .theme-indigo.header-dark #main-navigation #main-menu > ul > li.current > a,.theme-indigo .creative-element .title .subtitle,.theme-indigo .title h1 span, .theme-indigo .title h2 span, .theme-indigo .title h3 span, .theme-indigo .title h4 span, .theme-indigo .title h5 span,html.split-bordered .theme-indigo #main-navigation #main-menu > ul > li.active > a,.theme-indigo .erinyen .tp-tab-title 
+,.theme-indigo .items-filter li a:hover, .theme-indigo .items-filter li a.current, .theme-indigo .header-dark .items-filter li a:hover, .theme-indigo .header-dark .items-filter li a.current
+,.theme-indigo.header-transparent.topnav-top #main-navigation #main-menu > ul > li.current > a,.theme-indigo .posts .post .more,
+.theme-indigo .cart-wrapper .cart-subtotal td:first-child, .theme-indigo .cart-wrapper .cart-total td:first-child,
+.theme-indigo .product .product-info .add-to-cart, .theme-indigo .product .product-info .view-cart,
+.theme-indigo .product .product-info .product-new-price,
+.theme-indigo .rating .fa-star, .theme-indigo .rating .fa-star-half-o,
+.theme-indigo.header-dark #main-aside-navigation #main-aside-menu>ul>li>a.is-open,
+.theme-indigo.clean-design .title .subtitle,
+.theme-indigo .grouped-item .grouped-item-price,
+.theme-indigo .title .subtitle,
+.theme-indigo .tp-caption.Newspaper-subtitle,
+.theme-indigo .feature-box .feature-content p.subtitle,
+.theme-indigo .product-quick-desc,
+.theme-indigo #main-navigation #main-menu>ul .is-open, 
+.theme-indigo #main-navigation #main-menu>ul>li.current i, 
+.theme-indigo #main-navigation #main-menu>ul>li.current>a, 
+.theme-indigo #main-navigation .main-menu>ul .is-open, 
+.theme-indigo #main-navigation .main-menu>ul>li.current i, 
+.theme-indigo #main-navigation .main-menu>ul>li.current>a,
+.theme-indigo #search.nav-search.search-open input, 
+.theme-indigo #search.nav-search.search-open input:focus, 
+.theme-indigo .search.nav-search.search-open input, 
+.theme-indigo .search.nav-search.search-open input:focus,
+.theme-indigo figure.he-quote figcaption .quote-wrapper blockquote .quote-author {color:#7986cb;}
+.theme-indigo .c-primary, .theme-indigo .text-primary,
+.theme-indigo #main-aside-navigation #main-aside-menu>ul .is-open, 
+.theme-indigo #main-aside-navigation #main-aside-menu>ul>li.current i, 
+.theme-indigo #main-aside-navigation #main-aside-menu>ul>li.current>a, 
+.theme-indigo .header-dark #main-aside-navigation #main-aside-menu>ul>li.current>a, 
+.theme-indigo .header-dark #main-aside-navigation #main-aside-menu>ul>li>a.is-open,
+.theme-indigo.split-screen #main-menu li.active a,
+html.split-bordered .theme-indigo #main-navigation #main-menu>ul>li.active>a,
+.theme-indigo.header-scroll-dark #main-navigation #main-menu>ul>li.current>a, .theme-indigo.header-scroll-dark #main-navigation .main-menu>ul>li.current>a
+ {color:#7986cb !important;}
+.theme-indigo .bg-primary,.theme-indigo .btn-primary:not(.btn-bordered), .theme-indigo .btn-primary:not(.btn-bordered).active, .theme-indigo .btn-primary:not(.btn-bordered).focus, .theme-indigo .btn-primary:not(.btn-bordered):active, .theme-indigo .btn-primary:not(.btn-bordered):focus, .theme-indigo .btn-primary:hover, .theme-indigo .open>.dropdown-toggle.btn-primary,.theme-indigo .btn-primary.btn-bordered:hover,.theme-indigo .sort-options .select-filters .select-filter ul li a:hover,.theme-indigo .select2-container--default .select2-selection--multiple .select2-selection__choice,.theme-indigo .label-primary,.theme-indigo .datepicker table tr td.active:hover,.theme-indigo .datepicker table tr td.active:hover:hover,.theme-indigo .datepicker table tr td.active.disabled:hover,.theme-indigo .datepicker table tr td.active.disabled:hover:hover,.theme-indigo .datepicker table tr td.active:focus,.theme-indigo .datepicker table tr td.active:hover:focus,.theme-indigo .datepicker table tr td.active.disabled:focus,.theme-indigo .datepicker table tr td.active.disabled:hover:focus,.theme-indigo .datepicker table tr td.active:active,.theme-indigo .datepicker table tr td.active:hover:active,.theme-indigo .datepicker table tr td.active.disabled:active,.theme-indigo .datepicker table tr td.active.disabled:hover:active,.theme-indigo .datepicker table tr td.active.active,.theme-indigo .datepicker table tr td.active:hover.active,.theme-indigo .datepicker table tr td.active.disabled.active,.theme-indigo .datepicker table tr td.active.disabled:hover.active,.theme-indigo .open .dropdown-toggle.datepicker table tr td.active,.theme-indigo .open .dropdown-toggle.datepicker table tr td.active:hover,.theme-indigo .open .dropdown-toggle.datepicker table tr td.active.disabled,.theme-indigo .open .dropdown-toggle.datepicker table tr td.active.disabled:hover,.theme-indigo .datepicker table tr td span.active:hover, .theme-indigo .datepicker table tr td span.active:hover:hover, .theme-indigo .datepicker table tr td span.active.disabled:hover, .theme-indigo .datepicker table tr td span.active.disabled:hover:hover, .theme-indigo .datepicker table tr td span.active:focus, .theme-indigo .datepicker table tr td span.active:hover:focus, .theme-indigo .datepicker table tr td span.active.disabled:focus, .theme-indigo .datepicker table tr td span.active.disabled:hover:focus, .theme-indigo .datepicker table tr td span.active:active, .theme-indigo .datepicker table tr td span.active:hover:active, .theme-indigo .datepicker table tr td span.active.disabled:active, .theme-indigo .datepicker table tr td span.active.disabled:hover:active, .theme-indigo .datepicker table tr td span.active.active, .theme-indigo .datepicker table tr td span.active:hover.active, .theme-indigo .datepicker table tr td span.active.disabled.active, .theme-indigo .datepicker table tr td span.active.disabled:hover.active, .theme-indigo .open .dropdown-toggle.datepicker table tr td span.active, .theme-indigo .open .dropdown-toggle.datepicker table tr td span.active:hover, .theme-indigo .open .dropdown-toggle.datepicker table tr td span.active.disabled, .theme-indigo .open .dropdown-toggle.datepicker table tr td span.active.disabled:hover,.theme-indigo input[type="radio"] + label::after,.theme-indigo input[type="checkbox"] + label::after,.theme-indigo .switcher .switch,.theme-indigo .ui-slider .ui-slider-range, .theme-indigo .ui-slider .ui-slider-handle,.theme-indigo .select-filter ul li:hover a:before, .theme-indigo .select-filter ul li.selected a:before,.theme-indigo .widget .tags a:hover, .theme-indigo .tags a:hover,.theme-indigo .price-plan.plan-primary .plan-header, 
+.theme-indigo .price-plan.plan-primary .plan-info, .theme-indigo .alert-primary,
+.theme-indigo #footer.bg-primary,
+.theme-indigo #royal_preloader.royal_preloader_progress .royal_preloader_meter,
+.theme-indigo figure.he-link {background-color:#7986cb !important;}
+.theme-indigo .form-control:focus, .theme-indigo .form-group.form-grouped.focused,.theme-indigo .price-plan.plan-primary .plan-header, .theme-indigo .price-plan.plan-primary .plan-info,
+.theme-indigo .price-plan.plan-primary {border-color: #7986cb;}
+.theme-indigo .btn-primary.btn-bordered,.theme-indigo .select2-dropdown,.theme-indigo .select2-container--default.select2-container--focus .select2-selection--multiple,.theme-indigo .select2-container--open .select2-selection--single, .theme-indigo .focused .bootstrap-tagsinput,.theme-indigo .widget .tags a:hover, 
+.theme-indigo .tags a:hover {border:2px solid #7986cb;}
+.theme-indigo .ui-slider .ui-slider-handle{border: 3px solid #7986cb;}
+.theme-indigo .blog-timeline .posts .post:hover::before {border-top:1px dashed #7986cb;}
+.theme-indigo .btn-primary:not(.btn-bordered):hover {background:#6A74AC !important;}
+.theme-indigo .section-overlay.overlay-primary {background:rgba(121, 134, 203,.8)!important;}
+.theme-indigo .video-overlay.overlay-primary:before { background: rgba(121, 134, 203,.3);}
+.theme-indigo .title.title-line-primary::after {border:1px solid #7986cb;}
+.theme-indigo .blog-timeline .posts .post:hover .post-date {border:2px solid #7986cb;color:#7986cb !important;}
+.theme-indigo .select2-container--default.select2-container--focus .select2-selection--multiple, 
+.theme-indigo .select2-container--default.select2-container--open.select2-container--above .select2-selection--multiple, 
+.theme-indigo .select2-container--default.select2-container--open.select2-container--above .select2-selection--single {border: 2px solid #7986cb !important;}
+.theme-indigo .progress-bar-primary, .theme-indigo .progress-bar-primary[value]::-webkit-progress-value {background-color: #7986cb;}
+.theme-indigo .pricing-box-featured {border:5px solid #7986cb;}
+.theme-indigo .pricing-box-featured .pricing-box-title {background-color:#7986cb;}
+
+/* PURPLE THEME */
+.theme-purple a:not(.btn):not(.fc-event):hover, .theme-purple #search.nav-search.search-open input, .theme-purple #search.nav-search.search-open input:focus, .theme-purple .breadcrumb a:hover, .theme-purple .categories-list li a:hover, .theme-purple .categories-list li a.current,.theme-purple .header-dark .categories-list li a:hover,.theme-purple .item .item-meta a:hover,.theme-purple .testimonial .testimonial-meta .testimonial-subtitle a,.theme-purple .search-overlay form,.theme-purple header .blog-meta li a:hover,.theme-purple header.header-dark .blog-meta li a:hover,.theme-purple .post .post-info .post-meta a:hover,.theme-purple .post .post-info .post-meta a.comments:hover,.theme-purple .post-single .post-nav a:hover .prev-icon, .theme-purple .post-single .post-nav a:hover .next-icon,.theme-purple .posts .post .more,.theme-purple .blog-square .post .post-comments a:hover,.theme-purple .blog-timeline .posts .post:hover .post-date,.theme-purple .pagination li:not(.disabled) a:hover,.theme-purple .shop-breadcrumb ul li a:hover,.theme-purple #footer .widget-text a, .theme-purple #footer .widget-twitter a,.theme-purple .datepicker thead tr th.prev, .theme-purple .datepicker thead tr th.next,.theme-purple figure.he-2 a:hover,.theme-purple #main-navigation #main-menu > ul > li.current > a,  .theme-purple #main-navigation #main-menu > ul .is-open,.theme-purple #main-navigation #main-menu > ul > li.current i,.theme-purple .header-dark #main-navigation #main-menu > ul > li > a.is-open, .theme-purple .header-dark #main-navigation #main-menu > ul > li.current > a,.theme-purple .header-transparent.topnav-top #main-navigation #main-menu > ul > li.current > a,.theme-purple .hover-effect-2 a:hover span,.theme-purple header#main-navigation .current > a span::before,.theme-purple .c-primary,.theme-purple .text-primary,.theme-purple .shortcode-question span,.theme-purple #icons-wrapper ul li:hover i,.theme-purple .widget-twitter .tweets-list li a,.theme-purple .widget-links li a:hover,.theme-purple .required:after,.theme-purple .form-group.form-grouped.required:after,.theme-purple code,.theme-purple .header-icon,.theme-purple.header-dark #main-navigation #main-menu > ul > li > a.is-open, .theme-purple.header-dark #main-navigation #main-menu > ul > li.current > a,.theme-purple .creative-element .title .subtitle,.theme-purple .title h1 span, .theme-purple .title h2 span, .theme-purple .title h3 span, .theme-purple .title h4 span, .theme-purple .title h5 span,html.split-bordered .theme-purple #main-navigation #main-menu > ul > li.active > a,.theme-purple .erinyen .tp-tab-title 
+,.theme-purple .items-filter li a:hover, .theme-purple .items-filter li a.current, .theme-purple .header-dark .items-filter li a:hover, .theme-purple .header-dark .items-filter li a.current
+.theme-purple .c-primary, .theme-purple .text-primary,
+.theme-purple.header-transparent.topnav-top #main-navigation #main-menu > ul > li.current > a,
+.theme-purple #main-aside-navigation #main-aside-menu>ul .is-open, 
+.theme-purple #main-aside-navigation #main-aside-menu>ul>li.current i, 
+.theme-purple #main-aside-navigation #main-aside-menu>ul>li.current>a, 
+.theme-purple .header-dark #main-aside-navigation #main-aside-menu>ul>li.current>a, 
+.theme-purple .header-dark #main-aside-navigation #main-aside-menu>ul>li>a.is-open,
+.theme-purple.split-screen #main-menu li.active a,
+html.split-bordered .theme-purple #main-navigation #main-menu>ul>li.active>a,
+.theme-purple .posts .post .more,
+.theme-purple .cart-wrapper .cart-subtotal td:first-child, .theme-purple .cart-wrapper .cart-total td:first-child,
+.theme-purple .product .product-info .add-to-cart, .theme-purple .product .product-info .view-cart,
+.theme-purple .product .product-info .product-new-price,
+.theme-purple .rating .fa-star, .theme-purple .rating .fa-star-half-o,
+.theme-purple.header-dark #main-aside-navigation #main-aside-menu>ul>li>a.is-open,
+.theme-purple.clean-design .title .subtitle,
+.theme-purple .grouped-item .grouped-item-price,
+.theme-purple .title .subtitle,
+.theme-purple .tp-caption.Newspaper-subtitle,
+.theme-purple.header-scroll-dark #main-navigation #main-menu>ul>li.current>a, .theme-purple.header-scroll-dark #main-navigation .main-menu>ul>li.current>a,
+.theme-purple .feature-box .feature-content p.subtitle,
+.theme-purple .product-quick-desc,
+.theme-purple #main-navigation #main-menu>ul .is-open, 
+.theme-purple #main-navigation #main-menu>ul>li.current i, 
+.theme-purple #main-navigation #main-menu>ul>li.current>a, 
+.theme-purple #main-navigation .main-menu>ul .is-open, 
+.theme-purple #main-navigation .main-menu>ul>li.current i, 
+.theme-purple #main-navigation .main-menu>ul>li.current>a,
+.theme-purple #search.nav-search.search-open input, 
+.theme-purple #search.nav-search.search-open input:focus, 
+.theme-purple .search.nav-search.search-open input, 
+.theme-purple .search.nav-search.search-open input:focus,
+.theme-purple figure.he-quote figcaption .quote-wrapper blockquote .quote-author
+ {color:#9575cd !important;}
+.theme-purple .bg-primary,.theme-purple .btn-primary:not(.btn-bordered), .theme-purple .btn-primary:not(.btn-bordered).active, .theme-purple .btn-primary:not(.btn-bordered).focus, .theme-purple .btn-primary:not(.btn-bordered):active, .theme-purple .btn-primary:not(.btn-bordered):focus, .theme-purple .btn-primary:hover, .theme-purple .open>.dropdown-toggle.btn-primary,.theme-purple .btn-primary.btn-bordered:hover,.theme-purple .sort-options .select-filters .select-filter ul li a:hover,.theme-purple .select2-container--default .select2-selection--multiple .select2-selection__choice,.theme-purple .label-primary,.theme-purple .datepicker table tr td.active:hover,.theme-purple .datepicker table tr td.active:hover:hover,.theme-purple .datepicker table tr td.active.disabled:hover,.theme-purple .datepicker table tr td.active.disabled:hover:hover,.theme-purple .datepicker table tr td.active:focus,.theme-purple .datepicker table tr td.active:hover:focus,.theme-purple .datepicker table tr td.active.disabled:focus,.theme-purple .datepicker table tr td.active.disabled:hover:focus,.theme-purple .datepicker table tr td.active:active,.theme-purple .datepicker table tr td.active:hover:active,.theme-purple .datepicker table tr td.active.disabled:active,.theme-purple .datepicker table tr td.active.disabled:hover:active,.theme-purple .datepicker table tr td.active.active,.theme-purple .datepicker table tr td.active:hover.active,.theme-purple .datepicker table tr td.active.disabled.active,.theme-purple .datepicker table tr td.active.disabled:hover.active,.theme-purple .open .dropdown-toggle.datepicker table tr td.active,.theme-purple .open .dropdown-toggle.datepicker table tr td.active:hover,.theme-purple .open .dropdown-toggle.datepicker table tr td.active.disabled,.theme-purple .open .dropdown-toggle.datepicker table tr td.active.disabled:hover,.theme-purple .datepicker table tr td span.active:hover, .theme-purple .datepicker table tr td span.active:hover:hover, .theme-purple .datepicker table tr td span.active.disabled:hover, .theme-purple .datepicker table tr td span.active.disabled:hover:hover, .theme-purple .datepicker table tr td span.active:focus, .theme-purple .datepicker table tr td span.active:hover:focus, .theme-purple .datepicker table tr td span.active.disabled:focus, .theme-purple .datepicker table tr td span.active.disabled:hover:focus, .theme-purple .datepicker table tr td span.active:active, .theme-purple .datepicker table tr td span.active:hover:active, .theme-purple .datepicker table tr td span.active.disabled:active, .theme-purple .datepicker table tr td span.active.disabled:hover:active, .theme-purple .datepicker table tr td span.active.active, .theme-purple .datepicker table tr td span.active:hover.active, .theme-purple .datepicker table tr td span.active.disabled.active, .theme-purple .datepicker table tr td span.active.disabled:hover.active, .theme-purple .open .dropdown-toggle.datepicker table tr td span.active, .theme-purple .open .dropdown-toggle.datepicker table tr td span.active:hover, .theme-purple .open .dropdown-toggle.datepicker table tr td span.active.disabled, .theme-purple .open .dropdown-toggle.datepicker table tr td span.active.disabled:hover,.theme-purple input[type="radio"] + label::after,.theme-purple input[type="checkbox"] + label::after,.theme-purple .switcher .switch,.theme-purple .ui-slider .ui-slider-range, .theme-purple .ui-slider .ui-slider-handle,.theme-purple .select-filter ul li:hover a:before, .theme-purple .select-filter ul li.selected a:before,.theme-purple .widget .tags a:hover, .theme-purple .tags a:hover,.theme-purple .price-plan.plan-primary .plan-header, 
+.theme-purple .price-plan.plan-primary .plan-info, .theme-purple .alert-primary,
+.theme-purple #footer.bg-primary,
+.theme-purple #royal_preloader.royal_preloader_progress .royal_preloader_meter,
+.theme-purple figure.he-link
+ {background-color:#9575cd !important;} 
+.theme-purple .form-control:focus, .theme-purple .form-group.form-grouped.focused,.theme-purple .price-plan.plan-primary .plan-header, 
+.theme-purple .price-plan.plan-primary .plan-info,
+.theme-purple .price-plan.plan-primary {border-color: #9575cd;}
+.theme-purple .btn-primary.btn-bordered,.theme-purple .select2-dropdown,.theme-purple .select2-container--default.select2-container--focus .select2-selection--multiple,.theme-purple .select2-container--open .select2-selection--single, .theme-purple .focused .bootstrap-tagsinput,.theme-purple .widget .tags a:hover, 
+.theme-purple .tags a:hover {border:2px solid #9575cd;}
+.theme-purple .ui-slider .ui-slider-handle{border: 3px solid #9575cd;}
+.theme-purple .blog-timeline .posts .post:hover::before {border-top:1px dashed #9575cd;}
+.theme-purple .btn-primary:not(.btn-bordered):hover {background:#856BB2 !important;}
+.theme-purple .section-overlay.overlay-primary {background:rgba(149, 117, 205,.8)!important;}
+.theme-purple .video-overlay.overlay-primary:before { background: rgba(149, 117, 205,.3);}
+.theme-purple .title.title-line-primary::after {border:1px solid #9575cd;}
+.theme-purple .blog-timeline .posts .post:hover .post-date {border:2px solid #9575cd;color:#9575cd !important;}
+.theme-purple .select2-container--default.select2-container--focus .select2-selection--multiple, 
+.theme-purple .select2-container--default.select2-container--open.select2-container--above .select2-selection--multiple, 
+.theme-purple .select2-container--default.select2-container--open.select2-container--above .select2-selection--single {border: 2px solid #9575cd !important;}
+.theme-purple .progress-bar-primary, .theme-purple .progress-bar-primary[value]::-webkit-progress-value {background-color: #9575cd;}
+.theme-purple .pricing-box-featured {border:5px solid #9575cd;}
+.theme-purple .pricing-box-featured .pricing-box-title {background-color:#9575cd;}
+
+/* TEAL THEME */
+.theme-teal a:not(.btn):not(.fc-event):hover, .theme-teal #search.nav-search.search-open input, 
+.theme-teal #search.nav-search.search-open input:focus, .theme-teal .breadcrumb a:hover, .theme-teal .categories-list li a:hover, 
+.theme-teal .categories-list li a.current,.theme-teal .header-dark .categories-list li a:hover,.theme-teal .item .item-meta a:hover,
+.theme-teal .testimonial .testimonial-meta .testimonial-subtitle a,.theme-teal .search-overlay form,
+.theme-teal header .blog-meta li a:hover,.theme-teal header.header-dark .blog-meta li a:hover,
+.theme-teal .post .post-info .post-meta a:hover,.theme-teal .post .post-info .post-meta a.comments:hover,
+.theme-teal .post-single .post-nav a:hover .prev-icon, .theme-teal .post-single .post-nav a:hover .next-icon,
+.theme-teal .posts .post .more,.theme-teal .blog-square .post .post-comments a:hover,.theme-teal .blog-timeline .posts .post:hover .post-date, 
+.theme-teal .pagination li:not(.disabled) a:hover,.theme-teal .shop-breadcrumb ul li a:hover,.theme-teal #footer .widget-text a, 
+.theme-teal #footer .widget-twitter a,.theme-teal .datepicker thead tr th.prev, .theme-teal .datepicker thead tr th.next,
+.theme-teal figure.he-2 a:hover,
+.theme-teal #main-navigation #main-menu > ul > li.current > a,  .theme-teal #main-navigation #main-menu > ul .is-open,
+.theme-teal #main-navigation #main-menu > ul > li.current i,.theme-teal .header-dark #main-navigation #main-menu > ul > li > a.is-open, 
+.theme-teal .header-dark #main-navigation #main-menu > ul > li.current > a,
+.theme-teal .header-transparent.topnav-top #main-navigation #main-menu > ul > li.current > a,.theme-teal .hover-effect-2 a:hover span,
+.theme-teal header#main-navigation .current > a span::before,.theme-teal .c-primary,.theme-teal .text-primary,.theme-teal .shortcode-question span,
+.theme-teal #icons-wrapper ul li:hover i,.theme-teal .widget-twitter .tweets-list li a,.theme-teal .widget-links li a:hover,.theme-teal .required:after,
+.theme-teal .form-group.form-grouped.required:after,.theme-teal code,.theme-teal .header-icon,
+.theme-teal.header-dark #main-navigation #main-menu > ul > li > a.is-open, .theme-teal.header-dark #main-navigation #main-menu > ul > li.current > a,
+.theme-teal .creative-element .title .subtitle,.theme-teal .title h1 span, .theme-teal .title h2 span, .theme-teal .title h3 span, 
+.theme-teal .title h4 span, .theme-teal .title h5 span,html.split-bordered .theme-teal #main-navigation #main-menu > ul > li.active > a,
+.theme-teal .erinyen .tp-tab-title,
+.theme-teal .items-filter li a:hover, 
+.theme-teal .items-filter li a.current, .theme-teal .header-dark .items-filter li a:hover, 
+.theme-teal .header-dark .items-filter li a.current,
+.theme-teal.header-transparent.topnav-top #main-navigation #main-menu > ul > li.current > a,
+.theme-teal #main-aside-navigation #main-aside-menu>ul .is-open, 
+.theme-teal #main-aside-navigation #main-aside-menu>ul>li.current i, 
+.theme-teal #main-aside-navigation #main-aside-menu>ul>li.current>a, 
+.theme-teal .header-dark #main-aside-navigation #main-aside-menu>ul>li.current>a, 
+.theme-teal .header-dark #main-aside-navigation #main-aside-menu>ul>li>a.is-open,
+.theme-teal .posts .post .more,
+.theme-teal .cart-wrapper .cart-subtotal td:first-child, .theme-teal .cart-wrapper .cart-total td:first-child,
+.theme-teal .product .product-info .add-to-cart, .theme-teal .product .product-info .view-cart,
+.theme-teal .product .product-info .product-new-price,
+.theme-teal .rating .fa-star, .theme-teal .rating .fa-star-half-o,
+.theme-teal.header-dark #main-aside-navigation #main-aside-menu>ul>li>a.is-open,
+.theme-teal.clean-design .title .subtitle,
+.theme-teal .grouped-item .grouped-item-price,
+.theme-teal .title .subtitle,
+.theme-teal .tp-caption.Newspaper-subtitle,
+.theme-teal.header-scroll-dark #main-navigation #main-menu>ul>li.current>a, .theme-teal.header-scroll-dark #main-navigation .main-menu>ul>li.current>a {color:#4db6ac;}
+.theme-teal .c-primary, .theme-teal .text-primary,
+.theme-teal.split-screen #main-menu li.active a,
+html.split-bordered .theme-teal #main-navigation #main-menu>ul>li.active>a,
+.theme-teal .feature-box .feature-content p.subtitle,
+.theme-teal .product-quick-desc,
+.theme-teal #main-navigation #main-menu>ul .is-open, 
+.theme-teal #main-navigation #main-menu>ul>li.current i, 
+.theme-teal #main-navigation #main-menu>ul>li.current>a, 
+.theme-teal #main-navigation .main-menu>ul .is-open, 
+.theme-teal #main-navigation .main-menu>ul>li.current i, 
+.theme-teal #main-navigation .main-menu>ul>li.current>a,
+.theme-teal #search.nav-search.search-open input, 
+.theme-teal #search.nav-search.search-open input:focus, 
+.theme-teal .search.nav-search.search-open input, 
+.theme-teal .search.nav-search.search-open input:focus,
+.theme-teal figure.he-quote figcaption .quote-wrapper blockquote .quote-author
+ {color:#4db6ac !important;}
+.theme-teal .bg-primary,.theme-teal .btn-primary:not(.btn-bordered), .theme-teal .btn-primary:not(.btn-bordered).active, 
+.theme-teal .btn-primary:not(.btn-bordered).focus, .theme-teal .btn-primary:not(.btn-bordered):active, .theme-teal .btn-primary:not(.btn-bordered):focus,
+.theme-teal .btn-primary:hover, .theme-teal .open>.dropdown-toggle.btn-primary,.theme-teal .btn-primary.btn-bordered:hover,
+.theme-teal .sort-options .select-filters .select-filter ul li a:hover,
+.theme-teal .select2-container--default .select2-selection--multiple .select2-selection__choice,.theme-teal .label-primary,.theme-teal .datepicker table tr td.active:hover,.theme-teal .datepicker table tr td.active:hover:hover,.theme-teal .datepicker table tr td.active.disabled:hover,.theme-teal .datepicker table tr td.active.disabled:hover:hover,.theme-teal .datepicker table tr td.active:focus,.theme-teal .datepicker table tr td.active:hover:focus,.theme-teal .datepicker table tr td.active.disabled:focus,.theme-teal .datepicker table tr td.active.disabled:hover:focus,.theme-teal .datepicker table tr td.active:active,.theme-teal .datepicker table tr td.active:hover:active,.theme-teal .datepicker table tr td.active.disabled:active,.theme-teal .datepicker table tr td.active.disabled:hover:active,.theme-teal .datepicker table tr td.active.active,.theme-teal .datepicker table tr td.active:hover.active,.theme-teal .datepicker table tr td.active.disabled.active,.theme-teal .datepicker table tr td.active.disabled:hover.active,.theme-teal .open .dropdown-toggle.datepicker table tr td.active,.theme-teal .open .dropdown-toggle.datepicker table tr td.active:hover,.theme-teal .open .dropdown-toggle.datepicker table tr td.active.disabled,.theme-teal .open .dropdown-toggle.datepicker table tr td.active.disabled:hover,.theme-teal .datepicker table tr td span.active:hover, .theme-teal .datepicker table tr td span.active:hover:hover, .theme-teal .datepicker table tr td span.active.disabled:hover, .theme-teal .datepicker table tr td span.active.disabled:hover:hover, .theme-teal .datepicker table tr td span.active:focus, .theme-teal .datepicker table tr td span.active:hover:focus, .theme-teal .datepicker table tr td span.active.disabled:focus, .theme-teal .datepicker table tr td span.active.disabled:hover:focus, .theme-teal .datepicker table tr td span.active:active, .theme-teal .datepicker table tr td span.active:hover:active, .theme-teal .datepicker table tr td span.active.disabled:active, .theme-teal .datepicker table tr td span.active.disabled:hover:active, .theme-teal .datepicker table tr td span.active.active, .theme-teal .datepicker table tr td span.active:hover.active, .theme-teal .datepicker table tr td span.active.disabled.active, .theme-teal .datepicker table tr td span.active.disabled:hover.active, .theme-teal .open .dropdown-toggle.datepicker table tr td span.active, .theme-teal .open .dropdown-toggle.datepicker table tr td span.active:hover, .theme-teal .open .dropdown-toggle.datepicker table tr td span.active.disabled, .theme-teal .open .dropdown-toggle.datepicker table tr td span.active.disabled:hover,.theme-teal input[type="radio"] + label::after,.theme-teal input[type="checkbox"] + label::after,.theme-teal .switcher .switch,.theme-teal .ui-slider .ui-slider-range, .theme-teal .ui-slider .ui-slider-handle,.theme-teal .select-filter ul li:hover a:before, .theme-teal .select-filter ul li.selected a:before,.theme-teal .widget .tags a:hover, .theme-teal .tags a:hover,.theme-teal .price-plan.plan-primary .plan-header, 
+.theme-teal .price-plan.plan-primary .plan-info, .theme-teal .alert-primary,
+.theme-teal #footer.bg-primary,
+.theme-teal #royal_preloader.royal_preloader_progress .royal_preloader_meter,
+.theme-teal figure.he-link {background-color:#4db6ac !important;}
+.theme-teal .form-control:focus, .theme-teal .form-group.form-grouped.focused,.theme-teal .price-plan.plan-primary .plan-header, .theme-teal .price-plan.plan-primary .plan-info,
+.theme-teal .price-plan.plan-primary {border-color: #4db6ac ;}
+.theme-teal .btn-primary.btn-bordered,.theme-teal .select2-dropdown,.theme-teal .select2-container--default.select2-container--focus .select2-selection--multiple,.theme-teal .select2-container--open .select2-selection--single, .theme-teal .focused .bootstrap-tagsinput,.theme-teal .widget .tags a:hover, 
+.theme-teal .tags a:hover {border:2px solid #4db6ac ;}
+.theme-teal .ui-slider .ui-slider-handle{border: 3px solid #4db6ac ;}
+.theme-teal .blog-timeline .posts .post:hover::before {border-top:1px dashed #4db6ac ;}
+.theme-teal .btn-primary:not(.btn-bordered):hover {background:#469F97 !important;}
+.theme-teal .section-overlay.overlay-primary {background:rgba(77, 182, 172,.8)!important;}
+.theme-teal .video-overlay.overlay-primary:before { background: rgba(77, 182, 172,.3);}
+.theme-teal .title.title-line-primary::after {border:1px solid #4db6ac;}
+.theme-teal .blog-timeline .posts .post:hover .post-date {border:2px solid #4db6ac;color:#4db6ac !important;}
+.theme-teal .select2-container--default.select2-container--focus .select2-selection--multiple, 
+.theme-teal .select2-container--default.select2-container--open.select2-container--above .select2-selection--multiple, 
+.theme-teal .select2-container--default.select2-container--open.select2-container--above .select2-selection--single {border: 2px solid #4db6ac !important;}
+.theme-teal .progress-bar-primary, .theme-purple .progress-bar-primary[value]::-webkit-progress-value {background-color: #4db6ac;}
+.theme-teal .pricing-box-featured {border:5px solid #4db6ac;}
+.theme-teal .pricing-box-featured .pricing-box-title {background-color:#4db6ac;}
+
+/* RED THEME */
+.theme-red a:not(.btn):not(.fc-event):hover, .theme-red #search.nav-search.search-open input, .theme-red #search.nav-search.search-open input:focus, .theme-red .breadcrumb a:hover, .theme-red .categories-list li a:hover, .theme-red .categories-list li a.current,.theme-red .header-dark .categories-list li a:hover,.theme-red .item .item-meta a:hover,.theme-red .testimonial .testimonial-meta .testimonial-subtitle a,.theme-red .search-overlay form,.theme-red header .blog-meta li a:hover,.theme-red header.header-dark .blog-meta li a:hover,.theme-red .post .post-info .post-meta a:hover,.theme-red .post .post-info .post-meta a.comments:hover,.theme-red .post-single .post-nav a:hover .prev-icon, .theme-red .post-single .post-nav a:hover .next-icon,.theme-red .posts .post .more,.theme-red .blog-square .post .post-comments a:hover,.theme-red .blog-timeline .posts .post:hover .post-date, .theme-red .pagination li:not(.disabled) a:hover,.theme-red .shop-breadcrumb ul li a:hover,.theme-red #footer .widget-text a, .theme-red #footer .widget-twitter a,.theme-red .datepicker thead tr th.prev, .theme-red .datepicker thead tr th.next,.theme-red figure.he-2 a:hover,.theme-red #main-navigation #main-menu > ul > li.current > a,  .theme-red #main-navigation #main-menu > ul .is-open,.theme-red #main-navigation #main-menu > ul > li.current i,.theme-red .header-dark #main-navigation #main-menu > ul > li > a.is-open, .theme-red .header-dark #main-navigation #main-menu > ul > li.current > a,.theme-red .header-transparent.topnav-top #main-navigation #main-menu > ul > li.current > a,.theme-red .hover-effect-2 a:hover span,.theme-red header#main-navigation .current > a span::before,.theme-red .c-primary,.theme-red .text-primary,.theme-red .shortcode-question span,.theme-red #icons-wrapper ul li:hover i,.theme-red .widget-twitter .tweets-list li a,.theme-red .widget-links li a:hover,.theme-red .required:after,.theme-red .form-group.form-grouped.required:after,.theme-red code,.theme-red .header-icon,.theme-red.header-dark #main-navigation #main-menu > ul > li > a.is-open, .theme-red.header-dark #main-navigation #main-menu > ul > li.current > a,.theme-red .creative-element .title .subtitle,.theme-red .title h1 span, .theme-red .title h2 span, .theme-red .title h3 span, .theme-red .title h4 span, .theme-red .title h5 span,html.split-bordered .theme-red #main-navigation #main-menu > ul > li.active > a,.theme-red .erinyen .tp-tab-title 
+,.theme-red .items-filter li a:hover, .theme-red .items-filter li a.current, .theme-red .header-dark .items-filter li a:hover, .theme-red .header-dark .items-filter li a.current
+,.theme-red.header-transparent.topnav-top #main-navigation #main-menu > ul > li.current > a,
+.theme-red #main-aside-navigation #main-aside-menu>ul .is-open, 
+.theme-red #main-aside-navigation #main-aside-menu>ul>li.current i, 
+.theme-red #main-aside-navigation #main-aside-menu>ul>li.current>a, 
+.theme-red .header-dark #main-aside-navigation #main-aside-menu>ul>li.current>a, 
+.theme-red .header-dark #main-aside-navigation #main-aside-menu>ul>li>a.is-open,
+.theme-red .posts .post .more,
+.theme-red .cart-wrapper .cart-subtotal td:first-child, .theme-red .cart-wrapper .cart-total td:first-child,
+.theme-red .product .product-info .add-to-cart, .theme-red .product .product-info .view-cart,
+.theme-red .product .product-info .product-new-price,
+.theme-red .rating .fa-star, .theme-red .rating .fa-star-half-o,
+.theme-red.header-dark #main-aside-navigation #main-aside-menu>ul>li>a.is-open,
+.theme-red.clean-design .title .subtitle,
+.theme-red .grouped-item .grouped-item-price,
+.theme-red .title .subtitle,
+.theme-red .tp-caption.Newspaper-subtitle,
+.theme-red.header-scroll-dark #main-navigation #main-menu>ul>li.current>a, .theme-red.header-scroll-dark #main-navigation .main-menu>ul>li.current>a,
+.theme-red .feature-box .feature-content p.subtitle,
+.theme-red .product-quick-desc,
+.theme-red #main-navigation #main-menu>ul .is-open, 
+.theme-red #main-navigation #main-menu>ul>li.current i, 
+.theme-red #main-navigation #main-menu>ul>li.current>a, 
+.theme-red #main-navigation .main-menu>ul .is-open, 
+.theme-red #main-navigation .main-menu>ul>li.current i, 
+.theme-red #main-navigation .main-menu>ul>li.current>a,
+.theme-red #search.nav-search.search-open input, 
+.theme-red #search.nav-search.search-open input:focus, 
+.theme-red .search.nav-search.search-open input, 
+.theme-red .search.nav-search.search-open input:focus,
+.theme-red figure.he-quote figcaption .quote-wrapper blockquote .quote-author
+ {color:#ef5350;}
+.theme-red .c-primary, .theme-red .text-primary,
+.theme-red.split-screen #main-menu li.active a,
+html.split-bordered .theme-red #main-navigation #main-menu>ul>li.active>a {color:#ef5350 !important;}
+.theme-red .bg-primary,.theme-red .btn-primary:not(.btn-bordered), .theme-red .btn-primary:not(.btn-bordered).active, .theme-red .btn-primary:not(.btn-bordered).focus, .theme-red .btn-primary:not(.btn-bordered):active, .theme-red .btn-primary:not(.btn-bordered):focus, .theme-red .btn-primary:hover, .theme-red .open>.dropdown-toggle.btn-primary,.theme-red .btn-primary.btn-bordered:hover,.theme-red .sort-options .select-filters .select-filter ul li a:hover,.theme-red .select2-container--default .select2-selection--multiple .select2-selection__choice,.theme-red .label-primary,.theme-red .datepicker table tr td.active:hover,.theme-red .datepicker table tr td.active:hover:hover,.theme-red .datepicker table tr td.active.disabled:hover,.theme-red .datepicker table tr td.active.disabled:hover:hover,.theme-red .datepicker table tr td.active:focus,.theme-red .datepicker table tr td.active:hover:focus,.theme-red .datepicker table tr td.active.disabled:focus,.theme-red .datepicker table tr td.active.disabled:hover:focus,.theme-red .datepicker table tr td.active:active,.theme-red .datepicker table tr td.active:hover:active,.theme-red .datepicker table tr td.active.disabled:active,.theme-red .datepicker table tr td.active.disabled:hover:active,.theme-red .datepicker table tr td.active.active,.theme-red .datepicker table tr td.active:hover.active,.theme-red .datepicker table tr td.active.disabled.active,.theme-red .datepicker table tr td.active.disabled:hover.active,.theme-red .open .dropdown-toggle.datepicker table tr td.active,.theme-red .open .dropdown-toggle.datepicker table tr td.active:hover,.theme-red .open .dropdown-toggle.datepicker table tr td.active.disabled,.theme-red .open .dropdown-toggle.datepicker table tr td.active.disabled:hover,.theme-red .datepicker table tr td span.active:hover, .theme-red .datepicker table tr td span.active:hover:hover, .theme-red .datepicker table tr td span.active.disabled:hover, .theme-red .datepicker table tr td span.active.disabled:hover:hover, .theme-red .datepicker table tr td span.active:focus, .theme-red .datepicker table tr td span.active:hover:focus, .theme-red .datepicker table tr td span.active.disabled:focus, .theme-red .datepicker table tr td span.active.disabled:hover:focus, .theme-red .datepicker table tr td span.active:active, .theme-red .datepicker table tr td span.active:hover:active, .theme-red .datepicker table tr td span.active.disabled:active, .theme-red .datepicker table tr td span.active.disabled:hover:active, .theme-red .datepicker table tr td span.active.active, .theme-red .datepicker table tr td span.active:hover.active, .theme-red .datepicker table tr td span.active.disabled.active, .theme-red .datepicker table tr td span.active.disabled:hover.active, .theme-red .open .dropdown-toggle.datepicker table tr td span.active, .theme-red .open .dropdown-toggle.datepicker table tr td span.active:hover, .theme-red .open .dropdown-toggle.datepicker table tr td span.active.disabled, .theme-red .open .dropdown-toggle.datepicker table tr td span.active.disabled:hover,.theme-red input[type="radio"] + label::after,.theme-red input[type="checkbox"] + label::after,.theme-red .switcher .switch,.theme-red .ui-slider .ui-slider-range, .theme-red .ui-slider .ui-slider-handle,.theme-red .select-filter ul li:hover a:before, .theme-red .select-filter ul li.selected a:before,.theme-red .widget .tags a:hover, .theme-red .tags a:hover,.theme-red .price-plan.plan-primary .plan-header, 
+.theme-red .price-plan.plan-primary .plan-info, .theme-red .alert-primary,
+.theme-red #footer.bg-primary,
+.theme-red #royal_preloader.royal_preloader_progress .royal_preloader_meter,
+.theme-red figure.he-link {background-color:#ef5350 !important;}
+.theme-red .form-control:focus, .theme-red .form-group.form-grouped.focused,.theme-red .price-plan.plan-primary .plan-header, .theme-red .price-plan.plan-primary .plan-info,
+.theme-red .price-plan.plan-primary {border-color: #ef5350 ;}
+.theme-red .btn-primary.btn-bordered,.theme-red .select2-dropdown,.theme-red .select2-container--default.select2-container--focus .select2-selection--multiple,.theme-red .select2-container--open .select2-selection--single, .theme-red .focused .bootstrap-tagsinput,.theme-red .widget .tags a:hover, 
+.theme-red .tags a:hover {border:2px solid #ef5350 ;}
+.theme-red .ui-slider .ui-slider-handle{border: 3px solid #ef5350 ;}
+.theme-red .blog-timeline .posts .post:hover::before {border-top:1px dashed #ef5350 ;}
+.theme-red .btn-primary:not(.btn-bordered):hover {background:#CB4845 !important;}
+.theme-red .section-overlay.overlay-primary {background:rgba( 239, 83, 80,.8)!important;}
+.theme-red .video-overlay.overlay-primary:before { background: rgba( 239, 83, 80,.3);}
+.theme-red .title.title-line-primary::after {border:1px solid #ef5350;}
+.theme-red .blog-timeline .posts .post:hover .post-date {border:2px solid #ef5350;color:#ef5350 !important;}
+.theme-red .select2-container--default.select2-container--focus .select2-selection--multiple, 
+.theme-red .select2-container--default.select2-container--open.select2-container--above .select2-selection--multiple, 
+.theme-red .select2-container--default.select2-container--open.select2-container--above .select2-selection--single {border: 2px solid #ef5350 !important;}
+.theme-red .progress-bar-primary, .theme-red .progress-bar-primary[value]::-webkit-progress-value {background-color:#ef5350 !important;}
+.theme-red .pricing-box-featured {border:5px solid #ef5350;}
+.theme-red .pricing-box-featured .pricing-box-title {background-color:#ef5350;}
+
+/* AMBER THEME */
+.theme-amber a:not(.btn):not(.fc-event):hover, .theme-amber #search.nav-search.search-open input, .theme-amber #search.nav-search.search-open input:focus, .theme-amber .breadcrumb a:hover, .theme-amber .categories-list li a:hover, .theme-amber .categories-list li a.current,.theme-amber .header-dark .categories-list li a:hover,.theme-amber .item .item-meta a:hover,.theme-amber .testimonial .testimonial-meta .testimonial-subtitle a,.theme-amber .search-overlay form,.theme-amber header .blog-meta li a:hover,.theme-amber header.header-dark .blog-meta li a:hover,.theme-amber .post .post-info .post-meta a:hover,.theme-amber .post .post-info .post-meta a.comments:hover,.theme-amber .post-single .post-nav a:hover .prev-icon, .theme-amber .post-single .post-nav a:hover .next-icon,.theme-amber .posts .post .more,.theme-amber .blog-square .post .post-comments a:hover,.theme-amber .blog-timeline .posts .post:hover .post-date, .theme-amber .pagination li:not(.disabled) a:hover,.theme-amber .shop-breadcrumb ul li a:hover,.theme-amber #footer .widget-text a, .theme-amber #footer .widget-twitter a,.theme-amber .datepicker thead tr th.prev, .theme-amber .datepicker thead tr th.next,.theme-amber figure.he-2 a:hover,.theme-amber #main-navigation #main-menu > ul > li.current > a,  .theme-amber #main-navigation #main-menu > ul .is-open,.theme-amber #main-navigation #main-menu > ul > li.current i,.theme-amber .header-dark #main-navigation #main-menu > ul > li > a.is-open, .theme-amber .header-dark #main-navigation #main-menu > ul > li.current > a,.theme-amber .header-transparent.topnav-top #main-navigation #main-menu > ul > li.current > a,.theme-amber .hover-effect-2 a:hover span,.theme-amber header#main-navigation .current > a span::before,.theme-amber .c-primary,.theme-amber .text-primary,.theme-amber .shortcode-question span,.theme-amber #icons-wrapper ul li:hover i,.theme-amber .widget-twitter .tweets-list li a,.theme-amber .widget-links li a:hover,.theme-amber .required:after,.theme-amber .form-group.form-grouped.required:after,.theme-amber code,.theme-amber .header-icon,.theme-amber.header-dark #main-navigation #main-menu > ul > li > a.is-open, .theme-amber.header-dark #main-navigation #main-menu > ul > li.current > a,.theme-amber .creative-element .title .subtitle,.theme-amber .title h1 span, .theme-amber .title h2 span, .theme-amber .title h3 span, .theme-amber .title h4 span, .theme-amber .title h5 span,html.split-bordered .theme-amber #main-navigation #main-menu > ul > li.active > a,.theme-amber .erinyen .tp-tab-title 
+,.theme-amber .items-filter li a:hover, .theme-amber .items-filter li a.current, .theme-amber .header-dark .items-filter li a:hover, .theme-amber .header-dark .items-filter li a.current
+,.theme-amber.header-transparent.topnav-top #main-navigation #main-menu > ul > li.current > a,
+.theme-amber #main-aside-navigation #main-aside-menu>ul .is-open, 
+.theme-amber #main-aside-navigation #main-aside-menu>ul>li.current i, 
+.theme-amber #main-aside-navigation #main-aside-menu>ul>li.current>a, 
+.theme-amber .header-dark #main-aside-navigation #main-aside-menu>ul>li.current>a, 
+.theme-amber .header-dark #main-aside-navigation #main-aside-menu>ul>li>a.is-open,
+.theme-amber .posts .post .more,
+.theme-amber .cart-wrapper .cart-subtotal td:first-child, .theme-amber .cart-wrapper .cart-total td:first-child,
+.theme-amber .product .product-info .add-to-cart, .theme-amber .product .product-info .view-cart,
+.theme-amber .product .product-info .product-new-price,
+.theme-amber .rating .fa-star, .theme-amber .rating .fa-star-half-o,
+.theme-amber.header-dark #main-aside-navigation #main-aside-menu>ul>li>a.is-open,
+.theme-amber.clean-design .title .subtitle,
+.theme-amber .grouped-item .grouped-item-price,
+.theme-amber .title .subtitle,
+.theme-amber .tp-caption.Newspaper-subtitle,
+.theme-amber.header-scroll-dark #main-navigation #main-menu>ul>li.current>a, 
+.theme-amber.header-scroll-dark #main-navigation .main-menu>ul>li.current>a,
+.theme-amber .product-quick-desc,
+.theme-amber #main-navigation #main-menu>ul .is-open, 
+.theme-amber #main-navigation #main-menu>ul>li.current i, 
+.theme-amber #main-navigation #main-menu>ul>li.current>a, 
+.theme-amber #main-navigation .main-menu>ul .is-open, 
+.theme-amber #main-navigation .main-menu>ul>li.current i, 
+.theme-amber #main-navigation .main-menu>ul>li.current>a,
+.theme-amber #search.nav-search.search-open input, 
+.theme-amber #search.nav-search.search-open input:focus, 
+.theme-amber .search.nav-search.search-open input, 
+.theme-amber .search.nav-search.search-open input:focus,
+.theme-amber figure.he-quote figcaption .quote-wrapper blockquote .quote-author
+ {color:#D4B34A;}
+.theme-amber .c-primary, .theme-amber .text-primary,
+.theme-amber.split-screen #main-menu li.active a,
+html.split-bordered .theme-amber #main-navigation #main-menu>ul>li.active>a,
+.theme-amber .feature-box .feature-content p.subtitle {color:#D4B34A !important;}
+.theme-amber .bg-primary,.theme-amber .btn-primary:not(.btn-bordered), .theme-amber .btn-primary:not(.btn-bordered).active, .theme-amber .btn-primary:not(.btn-bordered).focus, .theme-amber .btn-primary:not(.btn-bordered):active, .theme-amber .btn-primary:not(.btn-bordered):focus, .theme-amber .btn-primary:hover, .theme-amber .open>.dropdown-toggle.btn-primary,.theme-amber .btn-primary.btn-bordered:hover,.theme-amber .sort-options .select-filters .select-filter ul li a:hover,.theme-amber .select2-container--default .select2-selection--multiple .select2-selection__choice,.theme-amber .label-primary,.theme-amber .datepicker table tr td.active:hover,.theme-amber .datepicker table tr td.active:hover:hover,.theme-amber .datepicker table tr td.active.disabled:hover,.theme-amber .datepicker table tr td.active.disabled:hover:hover,.theme-amber .datepicker table tr td.active:focus,.theme-amber .datepicker table tr td.active:hover:focus,.theme-amber .datepicker table tr td.active.disabled:focus,.theme-amber .datepicker table tr td.active.disabled:hover:focus,.theme-amber .datepicker table tr td.active:active,.theme-amber .datepicker table tr td.active:hover:active,.theme-amber .datepicker table tr td.active.disabled:active,.theme-amber .datepicker table tr td.active.disabled:hover:active,.theme-amber .datepicker table tr td.active.active,.theme-amber .datepicker table tr td.active:hover.active,.theme-amber .datepicker table tr td.active.disabled.active,.theme-amber .datepicker table tr td.active.disabled:hover.active,.theme-amber .open .dropdown-toggle.datepicker table tr td.active,.theme-amber .open .dropdown-toggle.datepicker table tr td.active:hover,.theme-amber .open .dropdown-toggle.datepicker table tr td.active.disabled,.theme-amber .open .dropdown-toggle.datepicker table tr td.active.disabled:hover,.theme-amber .datepicker table tr td span.active:hover, .theme-amber .datepicker table tr td span.active:hover:hover, .theme-amber .datepicker table tr td span.active.disabled:hover, .theme-amber .datepicker table tr td span.active.disabled:hover:hover, .theme-amber .datepicker table tr td span.active:focus, .theme-amber .datepicker table tr td span.active:hover:focus, .theme-amber .datepicker table tr td span.active.disabled:focus, .theme-amber .datepicker table tr td span.active.disabled:hover:focus, .theme-amber .datepicker table tr td span.active:active, .theme-amber .datepicker table tr td span.active:hover:active, .theme-amber .datepicker table tr td span.active.disabled:active, .theme-amber .datepicker table tr td span.active.disabled:hover:active, .theme-amber .datepicker table tr td span.active.active, .theme-amber .datepicker table tr td span.active:hover.active, .theme-amber .datepicker table tr td span.active.disabled.active, .theme-amber .datepicker table tr td span.active.disabled:hover.active, .theme-amber .open .dropdown-toggle.datepicker table tr td span.active, .theme-amber .open .dropdown-toggle.datepicker table tr td span.active:hover, .theme-amber .open .dropdown-toggle.datepicker table tr td span.active.disabled, .theme-amber .open .dropdown-toggle.datepicker table tr td span.active.disabled:hover,.theme-amber input[type="radio"] + label::after,.theme-amber input[type="checkbox"] + label::after,.theme-amber .switcher .switch,.theme-amber .ui-slider .ui-slider-range, .theme-amber .ui-slider .ui-slider-handle,.theme-amber .select-filter ul li:hover a:before, .theme-amber .select-filter ul li.selected a:before,.theme-amber .widget .tags a:hover, .theme-amber .tags a:hover,.theme-amber .price-plan.plan-primary .plan-header, 
+.theme-amber .price-plan.plan-primary .plan-info, .theme-amber .alert-primary, 
+.theme-amber #footer.bg-primary,
+.theme-amber #royal_preloader.royal_preloader_progress .royal_preloader_meter,
+.theme-amber figure.he-link {background-color:#EFC84C !important;}
+.theme-amber .form-control:focus, .theme-amber .form-group.form-grouped.focused,.theme-amber .price-plan.plan-primary .plan-header, .theme-amber .price-plan.plan-primary .plan-info,
+.theme-amber .price-plan.plan-primary {border-color: #EFC84C ;}
+.theme-amber .btn-primary.btn-bordered,.theme-amber .select2-dropdown,.theme-amber .select2-container--default.select2-container--focus .select2-selection--multiple,.theme-amber .select2-container--open .select2-selection--single, .theme-amber .focused .bootstrap-tagsinput,.theme-amber .widget .tags a:hover, 
+.theme-amber .tags a:hover {border:2px solid #EFC84C ;}
+.theme-amber .ui-slider .ui-slider-handle{border: 3px solid #EFC84C ;}
+.theme-amber .blog-timeline .posts .post:hover::before {border-top:1px dashed #EFC84C ;}
+.theme-amber .btn-primary:not(.btn-bordered):hover {background:#CBAC49 !important;}
+.theme-amber .section-overlay.overlay-primary {background:rgba(239, 200, 76,.8)!important;}
+.theme-amber .video-overlay.overlay-primary:before { background: rgba(239, 200, 76,.3);}
+.theme-amber .btn.btn-primary {color:#000;}
+.theme-amber .bg-primary {color:#2A2A2A;}
+.theme-amber .title.title-line-primary::after {border:1px solid #EFC84C;}
+.theme-amber .blog-timeline .posts .post:hover .post-date {border:2px solid #EFC84C;color:#EFC84C !important;}
+.theme-amber .select2-container--default.select2-container--focus .select2-selection--multiple, 
+.theme-amber .select2-container--default.select2-container--open.select2-container--above .select2-selection--multiple, 
+.theme-amber .select2-container--default.select2-container--open.select2-container--above .select2-selection--single {border: 2px solid #EFC84C !important;}
+.theme-amber .progress-bar-primary, .theme-amber .progress-bar-primary[value]::-webkit-progress-value {background-color:#EFC84C !important;}
+.theme-amber .pricing-box-featured {border:5px solid #EFC84C;}
+.theme-amber .pricing-box-featured .pricing-box-title {background-color:#EFC84C;}
+
+/* BROWN THEME */
+.theme-brown a:not(.btn):not(.fc-event):hover, .theme-brown #search.nav-search.search-open input, .theme-brown #search.nav-search.search-open input:focus, .theme-brown .breadcrumb a:hover, .theme-brown .categories-list li a:hover, .theme-brown .categories-list li a.current,.theme-brown .header-dark .categories-list li a:hover,.theme-brown .item .item-meta a:hover,.theme-brown .testimonial .testimonial-meta .testimonial-subtitle a,.theme-brown .search-overlay form,.theme-brown header .blog-meta li a:hover,.theme-brown header.header-dark .blog-meta li a:hover,.theme-brown .post .post-info .post-meta a:hover,.theme-brown .post .post-info .post-meta a.comments:hover,.theme-brown .post-single .post-nav a:hover .prev-icon, .theme-brown .post-single .post-nav a:hover .next-icon,.theme-brown .posts .post .more,.theme-brown .blog-square .post .post-comments a:hover,.theme-brown .blog-timeline .posts .post:hover .post-date, .theme-brown .pagination li:not(.disabled) a:hover,.theme-brown .shop-breadcrumb ul li a:hover,.theme-brown #footer .widget-text a, .theme-brown #footer .widget-twitter a,.theme-brown .datepicker thead tr th.prev, .theme-brown .datepicker thead tr th.next,.theme-brown figure.he-2 a:hover,.theme-brown #main-navigation #main-menu > ul > li.current > a,  .theme-brown #main-navigation #main-menu > ul .is-open,.theme-brown #main-navigation #main-menu > ul > li.current i,.theme-brown .header-dark #main-navigation #main-menu > ul > li > a.is-open, .theme-brown .header-dark #main-navigation #main-menu > ul > li.current > a,.theme-brown .header-transparent.topnav-top #main-navigation #main-menu > ul > li.current > a,.theme-brown .hover-effect-2 a:hover span,.theme-brown header#main-navigation .current > a span::before,.theme-brown .c-primary,.theme-brown .text-primary,.theme-brown .shortcode-question span,.theme-brown #icons-wrapper ul li:hover i,.theme-brown .widget-twitter .tweets-list li a,.theme-brown .widget-links li a:hover,.theme-brown .required:after,.theme-brown .form-group.form-grouped.required:after,.theme-brown code,.theme-brown .header-icon,.theme-brown.header-dark #main-navigation #main-menu > ul > li > a.is-open, .theme-brown.header-dark #main-navigation #main-menu > ul > li.current > a,.theme-brown .creative-element .title .subtitle,.theme-brown .title h1 span, .theme-brown .title h2 span, .theme-brown .title h3 span, .theme-brown .title h4 span, .theme-brown .title h5 span,html.split-bordered .theme-brown #main-navigation #main-menu > ul > li.active > a,.theme-brown .erinyen .tp-tab-title 
+,.theme-brown .items-filter li a:hover, .theme-brown .items-filter li a.current, .theme-brown .header-dark .items-filter li a:hover, .theme-brown .header-dark .items-filter li a.current
+,.theme-brown.header-transparent.topnav-top #main-navigation #main-menu > ul > li.current > a,
+.theme-brown #main-aside-navigation #main-aside-menu>ul .is-open, 
+.theme-brown #main-aside-navigation #main-aside-menu>ul>li.current i, 
+.theme-brown #main-aside-navigation #main-aside-menu>ul>li.current>a, 
+.theme-brown .header-dark #main-aside-navigation #main-aside-menu>ul>li.current>a, 
+.theme-brown .header-dark #main-aside-navigation #main-aside-menu>ul>li>a.is-open,
+.theme-brown .posts .post .more,
+.theme-brown .cart-wrapper .cart-subtotal td:first-child, .theme-brown .cart-wrapper .cart-total td:first-child,
+.theme-brown .product .product-info .add-to-cart, .theme-brown .product .product-info .view-cart,
+.theme-brown .product .product-info .product-new-price,
+.theme-brown .rating .fa-star, .theme-brown .rating .fa-star-half-o,
+.theme-brown.header-dark #main-aside-navigation #main-aside-menu>ul>li>a.is-open,
+.theme-brown.clean-design .title .subtitle,
+.theme-brown .grouped-item .grouped-item-price,
+.theme-brown .title .subtitle,
+.theme-brown .tp-caption.Newspaper-subtitle,
+.theme-brown.header-scroll-dark #main-navigation #main-menu>ul>li.current>a, .theme-brown.header-scroll-dark #main-navigation .main-menu>ul>li.current>a {color:#8d6e63;}
+.theme-brown .c-primary, .theme-brown .text-primary,
+.theme-brown.split-screen #main-menu li.active a,
+html.split-bordered .theme-brown #main-navigation #main-menu>ul>li.active>a,
+.theme-brown .feature-box .feature-content p.subtitle,
+.theme-brown .product-quick-desc,
+.theme-brown #main-navigation #main-menu>ul .is-open, 
+.theme-brown #main-navigation #main-menu>ul>li.current i, 
+.theme-brown #main-navigation #main-menu>ul>li.current>a, 
+.theme-brown #main-navigation .main-menu>ul .is-open, 
+.theme-brown #main-navigation .main-menu>ul>li.current i, 
+.theme-brown #main-navigation .main-menu>ul>li.current>a,
+.theme-brown #search.nav-search.search-open input, 
+.theme-brown #search.nav-search.search-open input:focus, 
+.theme-brown .search.nav-search.search-open input, 
+.theme-brown .search.nav-search.search-open input:focus,
+.theme-brown figure.he-quote figcaption .quote-wrapper blockquote .quote-author
+ {color:#8d6e63 !important;}
+.theme-brown .bg-primary,.theme-brown .btn-primary:not(.btn-bordered), .theme-brown .btn-primary:not(.btn-bordered).active, .theme-brown .btn-primary:not(.btn-bordered).focus, .theme-brown .btn-primary:not(.btn-bordered):active, .theme-brown .btn-primary:not(.btn-bordered):focus, .theme-brown .btn-primary:hover, .theme-brown .open>.dropdown-toggle.btn-primary,.theme-brown .btn-primary.btn-bordered:hover,.theme-brown .sort-options .select-filters .select-filter ul li a:hover,.theme-brown .select2-container--default .select2-selection--multiple .select2-selection__choice,.theme-brown .label-primary,.theme-brown .datepicker table tr td.active:hover,.theme-brown .datepicker table tr td.active:hover:hover,.theme-brown .datepicker table tr td.active.disabled:hover,.theme-brown .datepicker table tr td.active.disabled:hover:hover,.theme-brown .datepicker table tr td.active:focus,.theme-brown .datepicker table tr td.active:hover:focus,.theme-brown .datepicker table tr td.active.disabled:focus,.theme-brown .datepicker table tr td.active.disabled:hover:focus,.theme-brown .datepicker table tr td.active:active,.theme-brown .datepicker table tr td.active:hover:active,.theme-brown .datepicker table tr td.active.disabled:active,.theme-brown .datepicker table tr td.active.disabled:hover:active,.theme-brown .datepicker table tr td.active.active,.theme-brown .datepicker table tr td.active:hover.active,.theme-brown .datepicker table tr td.active.disabled.active,.theme-brown .datepicker table tr td.active.disabled:hover.active,.theme-brown .open .dropdown-toggle.datepicker table tr td.active,.theme-brown .open .dropdown-toggle.datepicker table tr td.active:hover,.theme-brown .open .dropdown-toggle.datepicker table tr td.active.disabled,.theme-brown .open .dropdown-toggle.datepicker table tr td.active.disabled:hover,.theme-brown .datepicker table tr td span.active:hover, .theme-brown .datepicker table tr td span.active:hover:hover, .theme-brown .datepicker table tr td span.active.disabled:hover, .theme-brown .datepicker table tr td span.active.disabled:hover:hover, .theme-brown .datepicker table tr td span.active:focus, .theme-brown .datepicker table tr td span.active:hover:focus, .theme-brown .datepicker table tr td span.active.disabled:focus, .theme-brown .datepicker table tr td span.active.disabled:hover:focus, .theme-brown .datepicker table tr td span.active:active, .theme-brown .datepicker table tr td span.active:hover:active, .theme-brown .datepicker table tr td span.active.disabled:active, .theme-brown .datepicker table tr td span.active.disabled:hover:active, .theme-brown .datepicker table tr td span.active.active, .theme-brown .datepicker table tr td span.active:hover.active, .theme-brown .datepicker table tr td span.active.disabled.active, .theme-brown .datepicker table tr td span.active.disabled:hover.active, .theme-brown .open .dropdown-toggle.datepicker table tr td span.active, .theme-brown .open .dropdown-toggle.datepicker table tr td span.active:hover, .theme-brown .open .dropdown-toggle.datepicker table tr td span.active.disabled, .theme-brown .open .dropdown-toggle.datepicker table tr td span.active.disabled:hover,.theme-brown input[type="radio"] + label::after,.theme-brown input[type="checkbox"] + label::after,.theme-brown .switcher .switch,.theme-brown .ui-slider .ui-slider-range, .theme-brown .ui-slider .ui-slider-handle,.theme-brown .select-filter ul li:hover a:before, .theme-brown .select-filter ul li.selected a:before,.theme-brown .widget .tags a:hover, .theme-brown .tags a:hover,.theme-brown .price-plan.plan-primary .plan-header, 
+.theme-brown .price-plan.plan-primary .plan-info, .theme-brown .alert-primary,
+.theme-brown #footer.bg-primary,
+.theme-brown #royal_preloader.royal_preloader_progress .royal_preloader_meter,
+.theme-brown figure.he-link {background-color:#8d6e63 !important;}
+.theme-brown .form-control:focus, .theme-brown .form-group.form-grouped.focused,.theme-brown .price-plan.plan-primary .plan-header, .theme-brown .price-plan.plan-primary .plan-info,
+.theme-brown .price-plan.plan-primary {border-color: #8d6e63 ;}
+.theme-brown .btn-primary.btn-bordered,.theme-brown .select2-dropdown,.theme-brown .select2-container--default.select2-container--focus .select2-selection--multiple,.theme-brown .select2-container--open .select2-selection--single, .theme-brown .focused .bootstrap-tagsinput,.theme-brown .widget .tags a:hover, 
+.theme-brown .tags a:hover {border:2px solid #8d6e63 ;}
+.theme-brown .ui-slider .ui-slider-handle{border: 3px solid #8d6e63 ;}
+.theme-brown .blog-timeline .posts .post:hover::before {border-top:1px dashed #8d6e63;}
+.theme-brown .btn-primary:not(.btn-bordered):hover {background:#7B6057 !important;}
+.theme-brown .section-overlay.overlay-primary {background:rgba(141, 110, 99,.8)!important;}
+.theme-brown .video-overlay.overlay-primary:before { background: rgba(141, 110, 99,.3);}
+.theme-brown .title.title-line-primary::after {border:1px solid #8d6e63;}
+.theme-brown .blog-timeline .posts .post:hover .post-date {border:2px solid #8d6e63;color:#8d6e63 !important;}
+.theme-brown .select2-container--default.select2-container--focus .select2-selection--multiple, 
+.theme-brown .select2-container--default.select2-container--open.select2-container--above .select2-selection--multiple, 
+.theme-brown .select2-container--default.select2-container--open.select2-container--above .select2-selection--single {border: 2px solid #8d6e63 !important;}
+.theme-brown .progress-bar-primary, .theme-brown .progress-bar-primary[value]::-webkit-progress-value {background-color:#8d6e63 !important;}
+.theme-brown .pricing-box-featured {border:5px solid #8d6e63;}
+.theme-brown .pricing-box-featured .pricing-box-title {background-color:#8d6e63;}
+
+/* DARK THEME */
+.theme-dark a:not(.btn):not(.fc-event):not(.search-overlay-close):hover, .theme-dark #search.nav-search.search-open input, .theme-dark #search.nav-search.search-open input:focus, .theme-dark .breadcrumb a:hover, .theme-dark .categories-list li a:hover, .theme-dark .categories-list li a.current,.theme-dark .header-dark .categories-list li a:hover,.theme-dark .item .item-meta a:hover,.theme-dark .testimonial .testimonial-meta .testimonial-subtitle a,.theme-dark .search-overlay form,.theme-dark header .blog-meta li a:hover,.theme-dark header.header-dark .blog-meta li a:hover,.theme-dark .post .post-info .post-meta a:hover,.theme-dark .post .post-info .post-meta a.comments:hover,.theme-dark .post-single .post-nav a:hover .prev-icon, .theme-dark .post-single .post-nav a:hover .next-icon,.theme-dark .posts .post .more,.theme-dark .blog-square .post .post-comments a:hover,.theme-dark .blog-timeline .posts .post:hover .post-date, .theme-dark .pagination li:not(.disabled) a:hover,.theme-dark .shop-breadcrumb ul li a:hover,.theme-dark #footer .widget-text a, .theme-dark #footer .widget-twitter a,.theme-dark .datepicker thead tr th.prev, .theme-dark .datepicker thead tr th.next,.theme-dark figure.he-2 a:hover,.theme-dark #main-navigation #main-menu > ul .is-open,.theme-dark #main-navigation #main-menu > ul > li.current i,.theme-dark .header-dark #main-navigation #main-menu > ul > li > a.is-open, .theme-dark .header-dark #main-navigation #main-menu > ul > li.current > a,.theme-dark .header-transparent.topnav-top #main-navigation #main-menu > ul > li.current > a,.theme-dark .hover-effect-2 a:hover span,.theme-dark header#main-navigation .current > a span::before,.theme-dark .c-primary,.theme-dark .text-primary,.theme-dark .shortcode-question span,.theme-dark #icons-wrapper ul li:hover i,.theme-dark .widget-twitter .tweets-list li a,.theme-dark .widget-links li a:hover,.theme-dark .required:after,.theme-dark .form-group.form-grouped.required:after,.theme-dark code,.theme-dark .header-icon,.theme-dark.header-dark #main-navigation #main-menu > ul > li > a.is-open, .theme-dark.header-dark #main-navigation #main-menu > ul > li.current > a,.theme-dark .creative-element .title .subtitle,.theme-dark .title h1 span, .theme-dark .title h2 span, .theme-dark .title h3 span, .theme-dark .title h4 span, .theme-dark .title h5 span,html.split-bordered .theme-dark #main-navigation #main-menu > ul > li.active > a,.theme-dark .erinyen .tp-tab-title 
+,.theme-dark.header-transparent.topnav-top #main-navigation #main-menu > ul > li.current > a,
+.theme-dark #main-aside-navigation #main-aside-menu>ul .is-open, 
+.theme-dark #main-aside-navigation #main-aside-menu>ul>li.current i, 
+.theme-dark #main-aside-navigation #main-aside-menu>ul>li.current>a, 
+.theme-dark .header-dark #main-aside-navigation #main-aside-menu>ul>li>a.is-open,
+.theme-dark .posts .post .more,
+.theme-dark .product .product-info .add-to-cart, .theme-dark .product .product-info .view-cart,
+.theme-dark .product .product-info .product-new-price,
+.theme-dark .rating .fa-star, .theme-dark .rating .fa-star-half-o,
+.theme-dark.clean-design .title .subtitle,
+.theme-dark .grouped-item .grouped-item-price,
+.theme-dark .title .subtitle {color:#27282A;}
+.theme-dark .c-primary, .theme-dark .text-primary,
+.theme-dark.split-screen #main-menu li.active a,
+html.split-bordered .theme-dark #main-navigation #main-menu>ul>li.active>a,
+.theme-dark .feature-box .feature-content p.subtitle,
+.theme-dark .product-quick-desc {color:#27282A !important;}
+.theme-dark .bg-primary,.theme-dark .btn-primary:not(.btn-bordered), .theme-dark .btn-primary:not(.btn-bordered).active, .theme-dark .btn-primary:not(.btn-bordered).focus, .theme-dark .btn-primary:not(.btn-bordered):active, .theme-dark .btn-primary:not(.btn-bordered):focus, .theme-dark .btn-primary:hover, .theme-dark .open>.dropdown-toggle.btn-primary,.theme-dark .btn-primary.btn-bordered:hover,.theme-dark .sort-options .select-filters .select-filter ul li a:hover,.theme-dark .select2-container--default .select2-selection--multiple .select2-selection__choice,.theme-dark .label-primary,.theme-dark .datepicker table tr td.active:hover,.theme-dark .datepicker table tr td.active:hover:hover,.theme-dark .datepicker table tr td.active.disabled:hover,.theme-dark .datepicker table tr td.active.disabled:hover:hover,.theme-dark .datepicker table tr td.active:focus,.theme-dark .datepicker table tr td.active:hover:focus,.theme-dark .datepicker table tr td.active.disabled:focus,.theme-dark .datepicker table tr td.active.disabled:hover:focus,.theme-dark .datepicker table tr td.active:active,.theme-dark .datepicker table tr td.active:hover:active,.theme-dark .datepicker table tr td.active.disabled:active,.theme-dark .datepicker table tr td.active.disabled:hover:active,.theme-dark .datepicker table tr td.active.active,.theme-dark .datepicker table tr td.active:hover.active,.theme-dark .datepicker table tr td.active.disabled.active,.theme-dark .datepicker table tr td.active.disabled:hover.active,.theme-dark .open .dropdown-toggle.datepicker table tr td.active,.theme-dark .open .dropdown-toggle.datepicker table tr td.active:hover,.theme-dark .open .dropdown-toggle.datepicker table tr td.active.disabled,.theme-dark .open .dropdown-toggle.datepicker table tr td.active.disabled:hover,.theme-dark .datepicker table tr td span.active:hover, .theme-dark .datepicker table tr td span.active:hover:hover, .theme-dark .datepicker table tr td span.active.disabled:hover, .theme-dark .datepicker table tr td span.active.disabled:hover:hover, .theme-dark .datepicker table tr td span.active:focus, .theme-dark .datepicker table tr td span.active:hover:focus, .theme-dark .datepicker table tr td span.active.disabled:focus, .theme-dark .datepicker table tr td span.active.disabled:hover:focus, .theme-dark .datepicker table tr td span.active:active, .theme-dark .datepicker table tr td span.active:hover:active, .theme-dark .datepicker table tr td span.active.disabled:active, .theme-dark .datepicker table tr td span.active.disabled:hover:active, .theme-dark .datepicker table tr td span.active.active, .theme-dark .datepicker table tr td span.active:hover.active, .theme-dark .datepicker table tr td span.active.disabled.active, .theme-dark .datepicker table tr td span.active.disabled:hover.active, .theme-dark .open .dropdown-toggle.datepicker table tr td span.active, .theme-dark .open .dropdown-toggle.datepicker table tr td span.active:hover, .theme-dark .open .dropdown-toggle.datepicker table tr td span.active.disabled, .theme-dark .open .dropdown-toggle.datepicker table tr td span.active.disabled:hover,.theme-dark input[type="radio"] + label::after,.theme-dark input[type="checkbox"] + label::after,.theme-dark .switcher .switch,.theme-dark .ui-slider .ui-slider-range, .theme-dark .ui-slider .ui-slider-handle,.theme-dark .select-filter ul li:hover a:before, .theme-dark .select-filter ul li.selected a:before,.theme-dark .widget .tags a:hover, .theme-dark .tags a:hover,.theme-dark .price-plan.plan-primary .plan-header, 
+.theme-dark .price-plan.plan-primary .plan-info, .theme-dark .alert-primary,
+.theme-dark #footer.bg-primary,
+.theme-dark #royal_preloader.royal_preloader_progress .royal_preloader_meter {background-color:#27282A !important;}
+.theme-dark .form-control:focus, .theme-dark .form-group.form-grouped.focused,.theme-dark .price-plan.plan-primary .plan-header, .theme-dark .price-plan.plan-primary .plan-info,
+.theme-dark .price-plan.plan-primary {border-color: #27282A ;}
+.theme-dark .btn-primary.btn-bordered,.theme-dark .select2-dropdown,.theme-dark .select2-container--default.select2-container--focus .select2-selection--multiple,.theme-dark .select2-container--open .select2-selection--single, .theme-dark .focused .bootstrap-tagsinput,.theme-dark .widget .tags a:hover, 
+.theme-dark .tags a:hover {border:2px solid #27282A;}
+.theme-dark .ui-slider .ui-slider-handle{border: 3px solid #27282A;}
+.theme-dark .blog-timeline .posts .post:hover::before {border-top:1px dashed #27282A;}
+.theme-dark .btn-primary:not(.btn-bordered):hover {background:#0B0B0C !important;}
+.theme-dark .section-overlay.overlay-primary {background:rgba(39, 40, 42,.8)!important;}
+.theme-dark .video-overlay.overlay-primary:before { background: rgba(39, 40, 42,.3);}
+.theme-dark #main-navigation a:not(.btn):hover {color:#BCC0C9 !important;}
+.theme-dark .alert-primary h4.alert-title, .theme-dark .alert-primary.alert a {color:#fff;}
+.theme-dark .title.title-line-primary::after {border:1px solid #27282A;}
+.theme-dark #main-navigation #main-menu > ul > li.current > a,  
+.theme-dark .header-dark #main-aside-navigation #main-aside-menu>ul>li.current>a {color:#C5C5C5;}
+.theme-dark .blog-timeline .posts .post:hover .post-date {border:2px solid #27282A;color:#27282A !important;}
+.theme-dark .cart-wrapper .cart-subtotal td:first-child, .theme-dark .cart-wrapper .cart-total td:first-child {color:#D5D5D5;}
+.theme-dark .select2-container--default.select2-container--focus .select2-selection--multiple, 
+.theme-dark .select2-container--default.select2-container--open.select2-container--above .select2-selection--multiple, 
+.theme-dark .select2-container--default.select2-container--open.select2-container--above .select2-selection--single {border: 2px solid #27282A !important;}
+.theme-dark.dark-skin a:not(.btn):not(.fc-event):not(.search-overlay-close):hover, .theme-dark.dark-skin.dark-skin #search.nav-search.search-open input, .theme-dark.dark-skin #search.nav-search.search-open input:focus, .theme-dark.dark-skin .breadcrumb a:hover, .theme-dark.dark-skin .categories-list li a:hover, .theme-dark.dark-skin .categories-list li a.current,.theme-dark.dark-skin .header-dark .categories-list li a:hover,.theme-dark.dark-skin .item .item-meta a:hover,.theme-dark.dark-skin .testimonial .testimonial-meta .testimonial-subtitle a,.theme-dark.dark-skin .search-overlay form,.theme-dark.dark-skin header .blog-meta li a:hover,.theme-dark.dark-skin header.header-dark .blog-meta li a:hover,.theme-dark.dark-skin .post .post-info .post-meta a:hover,.theme-dark.dark-skin .post .post-info .post-meta a.comments:hover,.theme-dark.dark-skin .post-single .post-nav a:hover .prev-icon, .theme-dark.dark-skin .post-single .post-nav a:hover .next-icon,.theme-dark.dark-skin .posts .post .more,.theme-dark.dark-skin .blog-square .post .post-comments a:hover,.theme-dark.dark-skin .blog-timeline .posts .post:hover .post-date, .theme-dark.dark-skin .pagination li:not(.disabled) a:hover,.theme-dark.dark-skin .shop-breadcrumb ul li a:hover,.theme-dark.dark-skin #footer .widget-text a, .theme-dark.dark-skin #footer .widget-twitter a,.theme-dark.dark-skin .datepicker thead tr th.prev, .theme-dark.dark-skin .datepicker thead tr th.next,.theme-dark.dark-skin figure.he-2 a:hover,.theme-dark.dark-skin #main-navigation #main-menu > ul .is-open,.theme-dark.dark-skin #main-navigation #main-menu > ul > li.current i,.theme-dark.dark-skin .header-dark #main-navigation #main-menu > ul > li > a.is-open, .theme-dark.dark-skin .header-dark #main-navigation #main-menu > ul > li.current > a,.theme-dark.dark-skin .header-transparent.topnav-top #main-navigation #main-menu > ul > li.current > a,.theme-dark.dark-skin .hover-effect-2 a:hover span,.theme-dark.dark-skin header#main-navigation .current > a span::before,.theme-dark.dark-skin .c-primary,.theme-dark.dark-skin .text-primary,.theme-dark.dark-skin .shortcode-question span,.theme-dark.dark-skin #icons-wrapper ul li:hover i,.theme-dark.dark-skin .widget-twitter .tweets-list li a,.theme-dark.dark-skin .widget-links li a:hover,.theme-dark.dark-skin .required:after,.theme-dark.dark-skin .form-group.form-grouped.required:after,.theme-dark.dark-skin code,.theme-dark.dark-skin .header-icon,.theme-dark.dark-skin.header-dark #main-navigation #main-menu > ul > li > a.is-open, .theme-dark.dark-skin.header-dark #main-navigation #main-menu > ul > li.current > a,.theme-dark.dark-skin .creative-element .title .subtitle,.theme-dark.dark-skin .title h1 span, .theme-dark.dark-skin .title h2 span, .theme-dark.dark-skin .title h3 span, .theme-dark.dark-skin .title h4 span, .theme-dark.dark-skin .title h5 span,html.split-bordered .theme-dark.dark-skin #main-navigation #main-menu > ul > li.active > a,.theme-dark.dark-skin .erinyen .tp-tab-title 
+,.theme-dark.dark-skin.header-transparent.topnav-top #main-navigation #main-menu > ul > li.current > a,
+.theme-dark.dark-skin #main-aside-navigation #main-aside-menu>ul .is-open, 
+.theme-dark.dark-skin #main-aside-navigation #main-aside-menu>ul>li.current i, 
+.theme-dark.dark-skin #main-aside-navigation #main-aside-menu>ul>li.current>a, 
+.theme-dark.dark-skin .header-dark #main-aside-navigation #main-aside-menu>ul>li>a.is-open,
+.theme-dark.dark-skin .posts .post .more,
+.theme-dark.dark-skin .product .product-info .add-to-cart, .theme-dark.dark-skin .product .product-info .view-cart,
+.theme-dark.dark-skin .product .product-info .product-new-price,
+.theme-dark.dark-skin .rating .fa-star, .theme-dark.dark-skin .rating .fa-star-half-o,
+.theme-dark.dark-skin.clean-design .title .subtitle,
+.theme-dark.dark-skin .grouped-item .grouped-item-price,
+.theme-dark.dark-skin .title .subtitle {color:#fff;}
+.theme-dark.dark-skin .c-primary, .theme-dark.dark-skin .text-primary,
+.theme-dark.dark-skin.split-screen #main-menu li.active a,
+html.split-bordered .theme-dark.dark-skin #main-navigation #main-menu>ul>li.active>a {color:#fff !important;}
+.theme-dark.dark-skin .bg-primary,.theme-dark.dark-skin .btn-primary:not(.btn-bordered), .theme-dark.dark-skin .btn-primary:not(.btn-bordered).active, .theme-dark.dark-skin .btn-primary:not(.btn-bordered).focus, .theme-dark.dark-skin .btn-primary:not(.btn-bordered):active, .theme-dark.dark-skin .btn-primary:not(.btn-bordered):focus, .theme-dark.dark-skin .btn-primary:hover, .theme-dark.dark-skin .open>.dropdown-toggle.btn-primary,.theme-dark.dark-skin .btn-primary.btn-bordered:hover,.theme-dark.dark-skin .sort-options .select-filters .select-filter ul li a:hover,.theme-dark.dark-skin .select2-container--default .select2-selection--multiple .select2-selection__choice,.theme-dark.dark-skin .label-primary,.theme-dark.dark-skin .datepicker table tr td.active:hover,.theme-dark.dark-skin .datepicker table tr td.active:hover:hover,.theme-dark.dark-skin .datepicker table tr td.active.disabled:hover,.theme-dark.dark-skin .datepicker table tr td.active.disabled:hover:hover,.theme-dark.dark-skin .datepicker table tr td.active:focus,.theme-dark.dark-skin .datepicker table tr td.active:hover:focus,.theme-dark.dark-skin .datepicker table tr td.active.disabled:focus,.theme-dark.dark-skin .datepicker table tr td.active.disabled:hover:focus,.theme-dark.dark-skin .datepicker table tr td.active:active,.theme-dark.dark-skin .datepicker table tr td.active:hover:active,.theme-dark.dark-skin .datepicker table tr td.active.disabled:active,.theme-dark.dark-skin .datepicker table tr td.active.disabled:hover:active,.theme-dark.dark-skin .datepicker table tr td.active.active,.theme-dark.dark-skin .datepicker table tr td.active:hover.active,.theme-dark.dark-skin .datepicker table tr td.active.disabled.active,.theme-dark.dark-skin .datepicker table tr td.active.disabled:hover.active,.theme-dark.dark-skin .open .dropdown-toggle.datepicker table tr td.active,.theme-dark.dark-skin .open .dropdown-toggle.datepicker table tr td.active:hover,.theme-dark.dark-skin .open .dropdown-toggle.datepicker table tr td.active.disabled,.theme-dark.dark-skin .open .dropdown-toggle.datepicker table tr td.active.disabled:hover,.theme-dark.dark-skin .datepicker table tr td span.active:hover, .theme-dark.dark-skin .datepicker table tr td span.active:hover:hover, .theme-dark.dark-skin .datepicker table tr td span.active.disabled:hover, .theme-dark.dark-skin .datepicker table tr td span.active.disabled:hover:hover, .theme-dark.dark-skin .datepicker table tr td span.active:focus, .theme-dark.dark-skin .datepicker table tr td span.active:hover:focus, .theme-dark.dark-skin .datepicker table tr td span.active.disabled:focus, .theme-dark.dark-skin .datepicker table tr td span.active.disabled:hover:focus, .theme-dark.dark-skin .datepicker table tr td span.active:active, .theme-dark.dark-skin .datepicker table tr td span.active:hover:active, .theme-dark.dark-skin .datepicker table tr td span.active.disabled:active, .theme-dark.dark-skin .datepicker table tr td span.active.disabled:hover:active, .theme-dark.dark-skin .datepicker table tr td span.active.active, .theme-dark.dark-skin .datepicker table tr td span.active:hover.active, .theme-dark.dark-skin .datepicker table tr td span.active.disabled.active, .theme-dark.dark-skin .datepicker table tr td span.active.disabled:hover.active, .theme-dark.dark-skin .open .dropdown-toggle.datepicker table tr td span.active, .theme-dark.dark-skin .open .dropdown-toggle.datepicker table tr td span.active:hover, .theme-dark.dark-skin .open .dropdown-toggle.datepicker table tr td span.active.disabled, .theme-dark.dark-skin .open .dropdown-toggle.datepicker table tr td span.active.disabled:hover,.theme-dark.dark-skin input[type="radio"] + label::after,.theme-dark.dark-skin input[type="checkbox"] + label::after,.theme-dark.dark-skin .switcher .switch,.theme-dark.dark-skin .ui-slider .ui-slider-range, .theme-dark.dark-skin .ui-slider .ui-slider-handle,.theme-dark.dark-skin .select-filter ul li:hover a:before, .theme-dark.dark-skin .select-filter ul li.selected a:before,.theme-dark.dark-skin .widget .tags a:hover, .theme-dark.dark-skin .tags a:hover,.theme-dark.dark-skin .price-plan.plan-primary .plan-header, 
+.theme-dark.dark-skin .price-plan.plan-primary .plan-info, .theme-dark.dark-skin .alert-primary,
+.theme-dark.dark-skin #footer.bg-primary,
+.theme-dark.dark-skin #royal_preloader.royal_preloader_progress .royal_preloader_meter {background-color:#fff !important;}
+.theme-dark.dark-skin .form-control:focus, .theme-dark.dark-skin .form-group.form-grouped.focused,.theme-dark.dark-skin .price-plan.plan-primary .plan-header, .theme-dark.dark-skin .price-plan.plan-primary .plan-info,
+.theme-dark.dark-skin .price-plan.plan-primary {border-color: #fff ;}
+.theme-dark.dark-skin .btn-primary.btn-bordered,.theme-dark.dark-skin .select2-dropdown,.theme-dark.dark-skin .select2-container--default.select2-container--focus .select2-selection--multiple,.theme-dark.dark-skin .select2-container--open .select2-selection--single, .theme-dark.dark-skin .focused .bootstrap-tagsinput,.theme-dark.dark-skin .widget .tags a:hover, 
+.theme-dark.dark-skin .tags a:hover {border:2px solid #fff;}
+.theme-dark.dark-skin .ui-slider .ui-slider-handle{border: 3px solid #fff;}
+.theme-dark.dark-skin .blog-timeline .posts .post:hover::before {border-top:1px dashed #fff;}
+.theme-dark.dark-skin .btn-primary:not(.btn-bordered) {color:#121212 !important;}
+.theme-dark.dark-skin .btn-primary:not(.btn-bordered):hover {background:#EFEFF3 !important;}
+.theme-dark.dark-skin .section-overlay.overlay-primary {background:rgba(39, 40, 42,.8)!important;}
+.theme-dark.dark-skin .video-overlay.overlay-primary:before { background: rgba(39, 40, 42,.3);}
+.theme-dark.dark-skin #main-navigation a:not(.btn):hover {color:#BCC0C9 !important;}
+.theme-dark.dark-skin .alert-primary h4.alert-title, .theme-dark.dark-skin .alert-primary.alert a {color:#fff;}
+.theme-dark.dark-skin .title.title-line-primary::after {border:1px solid #E2E5EB;}
+.theme-dark.dark-skin #main-navigation #main-menu > ul > li.current > a,  
+.theme-dark.dark-skin .header-dark #main-aside-navigation #main-aside-menu>ul>li.current>a,
+.theme-dark #main-navigation #main-menu>ul .is-open, 
+.theme-dark #main-navigation #main-menu>ul>li.current i, 
+.theme-dark #main-navigation #main-menu>ul>li.current>a, 
+.theme-dark #main-navigation .main-menu>ul .is-open, 
+.theme-dark #main-navigation .main-menu>ul>li.current i, 
+.theme-dark #main-navigation .main-menu>ul>li.current>a,
+.theme-dark #search.nav-search.search-open input, 
+.theme-dark #search.nav-search.search-open input:focus, 
+.theme-dark .search.nav-search.search-open input, 
+.theme-dark .search.nav-search.search-open input:focus {color:#C5C5C5;}
+.theme-dark.dark-skin .blog-timeline .posts .post:hover .post-date {border:2px solid #E2E5EB;color:#E2E5EB !important;}
+.theme-dark.dark-skin .cart-wrapper .cart-subtotal td:first-child, .theme-dark.dark-skin .cart-wrapper .cart-total td:first-child,
+.theme-dark.header-scroll-dark #main-navigation #main-menu>ul>li.current>a, .theme-dark.header-scroll-dark #main-navigation .main-menu>ul>li.current>a {color:#D5D5D5;}
+.theme-dark.dark-skin .select2-container--default.select2-container--focus .select2-selection--multiple, 
+.theme-dark.dark-skin .select2-container--default.select2-container--open.select2-container--above .select2-selection--multiple, 
+.theme-dark.dark-skin .select2-container--default.select2-container--open.select2-container--above .select2-selection--single {border: 2px solid #E2E5EB !important;}
+.theme-dark .progress-bar-primary, .theme-dark .progress-bar-primary[value]::-webkit-progress-value {background-color:#27282A !important;}
+.theme-dark .pricing-box-featured {border:5px solid #424242;}
+.theme-dark .pricing-box-featured .pricing-box-title {background-color:#424242;}
+
+.theme-blue.header-transparent.topnav-top #main-navigation #main-menu > ul > li.current > a,
+.theme-indigo.header-transparent.topnav-top #main-navigation #main-menu > ul > li.current > a,
+.theme-purple.header-transparent.topnav-top #main-navigation #main-menu > ul > li.current > a,
+.theme-teal.header-transparent.topnav-top #main-navigation #main-menu > ul > li.current > a,
+.theme-red.header-transparent.topnav-top #main-navigation #main-menu > ul > li.current > a,
+.theme-amber.header-transparent.topnav-top #main-navigation #main-menu > ul > li.current > a,
+.theme-brown.header-transparent.topnav-top #main-navigation #main-menu > ul > li.current > a,
+.theme-dark.header-transparent.topnav-top #main-navigation #main-menu > ul > li.current > a,
+.theme-dark.header-dark #main-aside-navigation #main-aside-menu>ul>li>a.is-open,
+.theme-dark .tp-caption.Newspaper-subtitle {color:#C5C5C5;}

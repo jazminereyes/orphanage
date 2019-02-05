@@ -1,0 +1,40 @@
+{
+  "name": "password-validator",
+  "version": "4.1.1",
+  "description": "Validates password according to flexible and intuitive specifications",
+  "main": "src/index.js",
+  "scripts": {
+    "docs": "node_modules/.bin/jsdoc ./src/*.js ./package.json -t ./node_modules/docdash -R README.md -d ./docs -r",
+    "lint": "eslint ./src",
+    "test:unit": "mocha tests/*.js",
+    "test": "npm run lint && npm run test:unit",
+    "start": "node index.js"
+  },
+  "keywords": [
+    "password",
+    "validator",
+    "rules",
+    "schema",
+    "validation",
+    "check",
+    "match"
+  ],
+  "author": "Tarun Batra <tarun.batra00@gmail.com>",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tarunbatra/password-validator.git"
+  },
+  "bugs": {
+    "url": "https://github.com/tarunbatra/password-validator/issues"
+  },
+  "homepage": "https://github.com/tarunbatra/password-validator#readme",
+  "dependencies": {},
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "docdash": "^0.4.0",
+    "eslint": "^1.10.3",
+    "jsdoc": "^3.4.3",
+    "mocha": "^2.4.5"
+  }
+}

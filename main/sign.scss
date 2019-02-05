@@ -1,0 +1,124 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+
+$white: #fff;
+$dark: #384D63;
+$gray: #BDC3C7;
+$green: #2ECC71;
+$red: #c0392b;
+
+input[type="text"], input[type="password"] {
+    width: 80%;
+    margin-left: 0%;
+    position: relative;
+    border: none;
+    border-bottom: 1px solid $gray;
+    font-family: 'Raleway';
+    font-size: 1.3em;
+    padding: 10px;
+    color: $dark;
+    transition: all .2s ease-out; 
+    font-weight: 500;
+    
+    &:focus {
+        outline: none;
+        border-bottom: 3px solid $gray;
+        transition: all .2s ease-out; 
+    }
+    
+    &:required:valid {
+        border-bottom: 3px solid $green;
+        transition: all .2s ease-in-out; 
+    }
+} 
+
+.placeholder {
+    margin-left: 5%;
+    padding-left: 30px;
+    position: absolute;
+    z-index: 9999;
+    font-size: .9em;
+    color: $gray;
+    
+    &:nth-child(1) {
+        margin-top: 15px;
+    }
+    
+    &:nth-child(1n + 2) {
+        margin-top: 35px;
+    }
+}
+
+.placeholder.active {
+    color: $green;
+    font-size: .8em;
+    transition: all .2s ease-in-out;
+    
+    &:nth-child(1) {
+        margin-top: -10px;
+    }
+    
+    &:nth-child(1n + 2) {
+        margin-top: 10px;
+    }
+}
+}
+
+.right.active {
+	animation-name: away;
+ 	animation-duration: .9s;
+ 	animation-iteration-count: 1;
+ 	animation-direction: alternate;
+ 	animation-timing-function: ease-in;
+ 	animation-fill-mode: forwards;
+ 	animation-delay: .5s;
+}
+
+@keyframes away {
+	0% {
+		transform: rotateX(0deg) rotateY(0deg) rotateZ(0deg) scale(1) translate(0%, 0%);
+	}
+	
+	65% {
+		transform: rotateX(-360deg) rotateY(0deg) rotateZ(0deg) scale(0.5) translate(0%, 0%);
+	}
+	
+	69% {
+		transform: rotateX(-360deg) rotateY(0deg) rotateZ(0deg) scale(0.5) translate(0%, 0%);
+	}
+	
+	100% {
+		transform: rotateX(-360deg) rotateY(0deg) rotateZ(0deg) scale(0.5) translate(0%, -400%);
+	}
+}
+
+@keyframes bounce {
+	0% {
+    	transform: scale3d(1, 1, 1);
+  	}
+
+	30% {
+	    transform: scale3d(1.25, 0.75, 1);
+	}
+
+  	40% {
+	    transform: scale3d(0.75, 1.25, 1);
+  	}
+
+  	50% {
+	    transform: scale3d(1.15, 0.85, 1);
+		background-color: $gray;
+  	}
+
+  	65% {
+	    transform: scale3d(.95, 1.05, 1);
+  	}
+
+  	75% {
+	    transform: scale3d(1.05, .95, 1);
+  	}
+
+  	100% {
+	    transform: scale3d(1, 1, 1);
+		background-color: $green;
+  	}
+}

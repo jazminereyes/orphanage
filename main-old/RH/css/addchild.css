@@ -1,0 +1,33 @@
+.cheader{
+	font-size: 30px;
+}
+
+.form-control{
+	display: inline-block;
+	margin-bottom: 10px;
+}
+
+#cbody1, #cbody3{
+	margin-left: 10px;
+	margin-right: 10px;
+}
+
+#cbody2, #cbody4{	
+	margin-left: 5px;
+}
+
+#place{
+	width: 400px;
+}
+
+#rel{
+	width: 200px;
+}
+
+#bday, #cstat, #adate{
+	width: 170px;
+}
+
+.name{
+	width: 180px;
+}

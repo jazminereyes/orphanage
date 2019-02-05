@@ -1,0 +1,20 @@
+.cheader{
+	font-size: 30px;
+}
+
+#cbody1, #cbody3{
+	margin-left: 10px;
+	margin-right: 10px;
+}
+
+#btn2, #btn1{
+	margin-top: 10px; 
+}
+
+.img-circle{
+	border-radius: 0%;
+}
+
+#cbody2, #cbody4{	
+	margin-left: 5px;
+}

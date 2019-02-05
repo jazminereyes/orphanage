@@ -1,0 +1,53 @@
+.content-wrapper {
+    background: #AEE4AF;
+}
+
+.btn-primary {
+	padding: 8px;
+    color: #fff;
+    background-color: #379863;
+    border-color: #00c292;
+    box-shadow: 0 1px 1px rgba(0,0,0,.075);
+}
+
+.btn-primary:hover {
+    color: #fff;
+    background-color: #295651;
+    border-color: #97BAA4;
+}
+
+.nav-pills .nav-link.active, .nav-pills .show>.nav-link{
+	background-color: #379863;
+}
+
+.sidebar-dark-primary .nav-sidebar>.nav-item>.nav-link.active{
+	background-color: #379863;
+}
+
+thead, tfoot{
+    background-color: #93e09c;
+}
+
+table{
+    border-color: rgba(1, 1, 1, 255, 0.2);
+}
+
+.card-primary.card-outline {
+    border-top: 3px solid #499360;
+}
+
+.page-item.active .page-link {
+    z-index: 1;
+    color: #fff;
+    background-color: #61bd7c;
+    border-color: #80de91;
+}
+
+.custom-select {
+    background: none;
+}
+
+/*.bg-primary{
+    background-color: #93e09c;
+}*/
+

@@ -1,0 +1,52 @@
+.tab-content {
+  position: relative;
+  overflow: hidden;
+  &.is-animating {
+    position: absolute;
+    top: 0;
+    left: 15px;
+    right: 15px;
+    width: auto;
+  }
+}
+
+.content-pane {
+  position: absolute;
+  top: 50%;
+  left: 0;
+  right: 0;
+  margin: 0;
+  width: 100%;
+  opacity: 0;
+  transform: translateX(100%) translateY(-50%);
+  &.is-active {
+    position: relative;
+    opacity: 1;
+    transform: translateX(0%);
+  }
+  &.is-exiting {
+    opacity: 0;
+    transform: translateX(-100%);
+  }
+  &.is-animating {
+    transition: opacity 400ms ease-out, transform 400ms ease-out;
+  }
+}
+
+// optional styling for CodePen example
+.nav-tabs li.active a {
+  background: #f8f8f8!important;
+  border-bottom-color: transparent!important;  
+}
+.nav-tabs li:not(.active) {
+  border-bottom: 1px solid black;
+}
+.tab-content {
+  margin-top: -1px;
+  border: 1px solid #ddd;
+  border-top: none;
+  padding: 50px 20px;
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+  background: #f8f8f8;
+}

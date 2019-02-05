@@ -1,0 +1,47 @@
+.profile-user-img {
+
+width: 140px;
+border: 0px;
+}
+
+.dropdown-item{
+	cursor: pointer; 
+}
+
+.dropdown-item:hover{
+	background-color: #93e09c;
+	border: 0px;
+}
+
+.show>.btn-primary.dropdown-toggle {
+    color: #fff;
+    background-color: #295651;
+    border-color: #005cbf;
+}
+
+.card-primary:not(.card-outline) .card-header {
+    background-color: #499360;
+    border-bottom: 0;
+}
+
+.custom {
+     border-radius: 0px;
+}
+
+.form-control{
+	display: inline-block;
+	margin-left: 10px;
+	margin-bottom: 10px;
+}
+
+.lbl{
+	margin-left: 20px;
+}
+
+#dt{
+	width: 20%;
+}
+
+.input{
+	margin-left: 0px; 
+}
