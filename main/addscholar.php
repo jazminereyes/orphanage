@@ -49,7 +49,7 @@
         count = 1;
         toastr.error('Interview date cannot be after admission date.');
       }
-      
+
       if (count==1)
       {
         event.preventDefault();
@@ -63,7 +63,7 @@
         list-style-type: none;
       }
 
-      .sc 
+      .sc
       {
         margin-left: 100px;
         width: 900px;
@@ -129,7 +129,7 @@
                 require ('../connection.php');
 
                 $userid = $_SESSION['userid'];
-  
+
                 $query = "SELECT firstName, lastName from PERSON JOIN USER ON person.personID = user.personID WHERE programType = 'Admin' AND userID = '$userid'";
                 $result = mysqli_query($con, $query);
 
@@ -327,7 +327,7 @@
                     <label for="inputName"><span><i class="fa fa-asterisk text-danger" style="font-size: 9px; margin-bottom: 18px;"></i></span>&nbsp;First Name</label>
                     <input type="text" class="form-control required" id="inputName" name="first" style="width: 180px; margin-left: 10px;" required/>
                     <label for="inputName" style="margin-left: 20px">Middle Name</label>
-                    <input type="text" class="form-control" id="inputName" name="middle" style="width: 180px; margin-left: 10px;"/> 
+                    <input type="text" class="form-control" id="inputName" name="middle" style="width: 180px; margin-left: 10px;"/>
                     <label for="inputName" style="margin-left: 20px"><span><i class="fa fa-asterisk text-danger" style="font-size: 9px; margin-bottom: 18px;"></i></span>&nbsp;Last Name</label>
                     <input type="text" class="form-control required" id="inputName" name="last" style="width: 190px; margin-left: 10px;" required/>
                   </div><br/>
@@ -351,7 +351,7 @@
                     </div> <br/>
                     <div class="form-inline">
                       <label for="inputName"><span><i class="fa fa-asterisk text-danger" style="font-size: 9px; margin-bottom: 18px;"></i></span>&nbsp;School Last Attended</label>
-                      <input type="text" class="form-control required" id="inputName" name="school" style="width: 410px; margin-left: 10px; display: inline;" required/> 
+                      <input type="text" class="form-control required" id="inputName" name="school" style="width: 410px; margin-left: 10px; display: inline;" required/>
 
                       <label for="inputName"><span><i class="fa fa-asterisk text-danger" style="font-size: 9px; margin-bottom: 18px; margin-left: 20px;"></i></span>&nbsp;Last Weighted Average:</label>
                       <input type="text" class="form-control required" id="inputName" name="average" style="width: 100px; margin-left: 10px; display: inline;" required/> <br/><br/>
@@ -401,9 +401,9 @@
                     <label for="inputPlace" style="margin-left: 30px;">Distinguishing Marks (if any)</label>
                     <input type="text" class="form-control" id="inputPlace" name="discolorMarks" style="width: 200px; margin-left: 20px; display: inline;"/> <br/><br/>
                   </div><br/>
-                  <div class="form-inline"> 
+                  <div class="form-inline">
                     <label for="inputPlace"><i class="fa fa-asterisk text-danger" style="font-size: 9px; margin-bottom: 18px;"></i>Hair Color</label>
-                    <input type="text" class="form-control required" id="inputPlace" name="hairColor" style="margin-left: 20px" required/> <br/> 
+                    <input type="text" class="form-control required" id="inputPlace" name="hairColor" style="margin-left: 20px" required/> <br/>
 
                     <label for="inputPlace"><i class="fa fa-asterisk text-danger" style="font-size: 9px; margin-bottom: 18px; margin-left: 30px"></i>Eye Color</label>
                     <input type="text" class="form-control required" id="inputPlace" name="eyeColor" style="margin-left: 20px" required/> <br/>
@@ -416,7 +416,7 @@
                     <label class="form-check-label radio-inline" style="margin-left: 40px"><input class="form-check-input" type="radio" name="classification" value="no">No</label><br/><br/>
                     <label for="inputPlace" style="margin-left: 30px">Specify Illness</label>
                     <input type="text" class="form-control" id="inputPlace" name="illness" style="width: 200px; margin-left: 20px; display: inline;"/> <br/><br/>
-                  </div><br/>                          
+                  </div><br/>
                   <div class="form-inline">
                     <label for="inputPlace">When was the child last hospitalized?</label>
                     <input type="date" class="form-control" id="inputPlace" name="lastdhp" style="width: 200px; margin-left: 28px; display: inline;"/> <br/><br/>
@@ -446,7 +446,7 @@
                   </div><br/><br/>
                 </div>
                 <div class="step-tab-panel" id="step4" style="margin-left: 50px;">
-                  <br/><h3>BIRTHMOTHER</h3>
+                  <br/><h3>BIOLOGICAL MOTHER</h3>
 
                   <div class="form-inline">
                     <label for="inputPlace" style="margin-right: 20px"><span><i class="fa fa-asterisk text-danger" style="font-size: 9px; margin-bottom: 18px;"></i></span>&nbsp;Maiden Name</label>
@@ -478,12 +478,12 @@
                   </div><br/>
                   <div class="form-inline">
                     <label for="inputPlace" style="margin-right: 10px"><span><i class="fa fa-asterisk text-danger" style="font-size: 9px; margin-bottom: 18px;"></i></span>&nbsp;Occupation</label>
-                    <input type="text" class="form-control required" id="inputPlace" name="moccupation" style="margin-left: 1px; width: 185px;" required/> 
+                    <input type="text" class="form-control required" id="inputPlace" name="moccupation" style="margin-left: 1px; width: 185px;" required/>
 
                     <label for="inputPlace" style="margin-right: 10px; margin-left: 10px;"><span><i class="fa fa-asterisk text-danger" style="font-size: 9px; margin-bottom: 18px;"></i></span>&nbsp;Income</label>
                     <input type="number" class="form-control required" id="inputPlace" name="mincome" min="0" style="width: 135px;" required/> <br/>
                     <label style="margin-left: 10px"><span><i class="fa fa-asterisk text-danger" style="font-size: 9px; margin-bottom: 18px;"></i></span>&nbsp;No. of Children</label><br/>
-                    <input type="number" class="form-control required" id="inputPlace" name="mnoOfChildren" min="0" style="width: 70px; margin-left: 5px;" required/> 
+                    <input type="number" class="form-control required" id="inputPlace" name="mnoOfChildren" min="0" style="width: 70px; margin-left: 5px;" required/>
 
                     <label><i class="fa fa-asterisk text-danger" style="font-size: 9px; margin-bottom: 18px; margin-left: 10px;"></i>Contact No:</label>
                     <input type="number" class="form-control" name="mcno" style="margin-left: 10px; width: 145px;" required/>
@@ -494,7 +494,7 @@
                   </div>
                   <br/><br/>
 
-                  <h3>BIRTHFATHER</h3>
+                  <h3>BIOLOGICAL FATHER</h3>
 
                   <div class="form-inline">
                     <label for="inputPlace" style="margin-right: 75px"><span><i class="fa fa-asterisk text-danger" style="font-size: 9px; margin-bottom: 18px;"></i></span>&nbsp;Name</label>
@@ -526,12 +526,12 @@
                   </div><br/>
                   <div class="form-inline">
                     <label for="inputPlace" style="margin-right: 10px"><span><i class="fa fa-asterisk text-danger" style="font-size: 9px; margin-bottom: 18px;"></i></span>&nbsp;Occupation</label>
-                    <input type="text" class="form-control required" id="inputPlace" name="foccupation" style="margin-left: 1px; width: 185px;" required/> 
+                    <input type="text" class="form-control required" id="inputPlace" name="foccupation" style="margin-left: 1px; width: 185px;" required/>
 
                     <label for="inputPlace" style="margin-right: 10px; margin-left: 10px;"><span><i class="fa fa-asterisk text-danger" style="font-size: 9px; margin-bottom: 18px;"></i></span>&nbsp;Income</label>
                     <input type="number" class="form-control required" id="inputPlace" name="fincome" min="0" style="width: 135px;" required/> <br/>
                     <label style="margin-left: 10px"><span><i class="fa fa-asterisk text-danger" style="font-size: 9px; margin-bottom: 18px;"></i></span>&nbsp;No. of Children</label><br/>
-                    <input type="number" class="form-control required" id="inputPlace" name="fnoOfChildren" min="0" style="width: 70px; margin-left: 5px;" required/> 
+                    <input type="number" class="form-control required" id="inputPlace" name="fnoOfChildren" min="0" style="width: 70px; margin-left: 5px;" required/>
 
                     <label><i class="fa fa-asterisk text-danger" style="font-size: 9px; margin-bottom: 18px; margin-left: 10px;"></i>Contact No:</label>
                     <input type="number" class="form-control" name="fcno" style="margin-left: 10px; width: 145px;" required/>
@@ -618,7 +618,7 @@
                         </div>
                         <input name="educExpense" type="number" min="0" class="form-control" style="width: 125px; margin: 0;"/>
                       </div><br/>
-                    </div>                          
+                    </div>
                     <div class="form-inline">
                       <label class="lbl" style="margin-right: 10px; margin-left: 50px;">Annual medical expense of the whole family</label>
                       <div class="input-group mb-3" style="margin-top: 10px; margin-left: 306px;">
@@ -666,26 +666,26 @@
                             <input type="text" class="form-control" name="title" style="width: 340px;"/> <br/>
                           </div>
                           <div class="col-lg-6">
-                            <label for="caseStudy" id="cs" class="dl">Case Study</label> 
+                            <label for="caseStudy" id="cs" class="dl">Case Study</label>
                             <input type="file" name="caseStudy" class="form-control" style="width: 300px;"><br/>
                           </div>
                         </div>
                     </div>
-                
+
                   <input type="submit" value="Submit" name="submit" class="btn btn-success" style="float: right" onclick="validateForm(); validateDate();"/>
 
                   </form><br/><br/>
                 </div>
                 </div>
-                
+
               </div><br/>
-              
+
               <center><div class="step-footer">
                 <button data-direction="prev" class="step-btn btn">Previous</button>
                 <button data-direction="next" class="step-btn btn">Next</button>
                 <!--<button data-direction="finish" class="step-btn btn">Finish</button>-->
               </div></center>
-            </div>  
+            </div>
         </div><br/><br/>
 
       </div><!--/. container-fluid -->
@@ -750,4 +750,3 @@
       </script>
 </body>
 </html>
-

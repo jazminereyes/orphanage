@@ -49,7 +49,7 @@ session_start();
         count = 1;
         toastr.error('Interview date cannot be after admission date.');
       }
-      
+
       if (count==1)
       {
         event.preventDefault();
@@ -75,7 +75,7 @@ session_start();
         list-style-type: none;
       }
 
-      .sc 
+      .sc
       {
         margin-left: 50px;
         margin-right: 50px;
@@ -318,17 +318,17 @@ session_start();
                         <div class="col-4">
                         <label><i class="text-danger fa fa-asterisk"></i>First Name</label>
                         <input type="text" class="form-control required" name="first" required />
-                        </div>  
+                        </div>
                         <div class="col-4">
                         <label>Middle Name</label>
                         <input type="text" class="form-control" name="middle"/>
-                        </div>  
+                        </div>
                         <div class="col-4">
                         <label><i class="text-danger fa fa-asterisk"></i>Last Name</label>
                         <input type="text" class="form-control required" name="last" required/>
-                        </div>  
+                        </div>
                       </div>
-                      <br/>                      
+                      <br/>
                       <div class="row">
                         <div class="col-4">
                         <label for="inputName">Nickname</label>
@@ -348,7 +348,7 @@ session_start();
                         </label>
                         </div>
                       </div>
-                      <br/> 
+                      <br/>
 
                       <div class="row">
                         <div class="col-4">
@@ -363,7 +363,7 @@ session_start();
                           <label for="inputName">Zip Code</label>
                         <input type="text" class="form-control" name="zip"/>
                         </div>
-                      </div><br/> 
+                      </div><br/>
 
                       <div class="row">
                         <label><i class="text-danger fa fa-asterisk"></i>Classification:</label>&nbsp&nbsp&nbsp&nbsp
@@ -420,7 +420,7 @@ session_start();
                             <label for="inputPlace"><i class="text-danger fa fa-asterisk"></i>Referred By</label>
                             <input type="text" class="form-control required" id="inputPlace" name="refby" required/>
                           </div>
-                          <div class="col-6">  
+                          <div class="col-6">
                             <label for="inputPlace">Relation</label>
                             <input type="text" class="form-control" id="inputPlace" name="rel" />
                           </div>
@@ -445,7 +445,7 @@ session_start();
                             <input type="text" class="form-control required" name="hairColor" required/>
                           </div>
                         </div><br/>
-                            
+
 
                         <div class="row">
                           <div class="col-4">
@@ -473,17 +473,17 @@ session_start();
                             <input type="text" class="form-control" name="illness" style="width: 70%" />
                           </div>
                         </div>
-                        
+
                         <div class="form-inline">
                         <label for="inputPlace">When was the child last hospitalized?</label>
                         &nbsp&nbsp&nbsp&nbsp
-                        <input type="date" class="form-control required" name="lastdhp" style="width: 40%" required/> 
+                        <input type="date" class="form-control required" name="lastdhp" style="width: 40%" required/>
                         <br/><br/><br/>
                         </div>
                         <div class="form-inline">
                         <label for="inputPlace">Where was the child last hospitalized?</label>&nbsp&nbsp&nbsp&nbsp
-                        <input type="text" class="form-control required" name="lastph" style="width: 50%" required/> 
-                        <br/><br/> <br/> 
+                        <input type="text" class="form-control required" name="lastph" style="width: 50%" required/>
+                        <br/><br/> <br/>
                         </div>
                 </div>
                 <div class="step-tab-panel" id="step3">
@@ -508,7 +508,7 @@ session_start();
                                 <textarea class="form-control" name="faveSport"></textarea>
                               </div>
                             </div><br/>
-                            
+
                             <div class="row">
                               <div class="col-6">
                                 <label>Extra-curricular activities</label>
@@ -521,8 +521,8 @@ session_start();
                             </div><br/>
                 </div>
                 <div class="step-tab-panel" id="step4">
-                <div class="text-center"> 
-                            <h3>BIRTHMOTHER</h3>
+                <div class="text-center">
+                            <h3>BIOLOGICAL MOTHER</h3>
                           </div>
 
                             <div class="row">
@@ -532,11 +532,11 @@ session_start();
                               </div>
                               <div class="col-3">
                                 <label><i class="text-danger fa fa-asterisk"></i>Birthdate</label>
-                                <input type="date" class="form-control required" id="date" name="mbirthdate" required/> 
+                                <input type="date" class="form-control required" id="date" name="mbirthdate" required/>
                               </div>
                               <div class="col-3">
                                 <label><i class="text-danger fa fa-asterisk"></i>Contact No</label>
-                                <input type="number" class="form-control required" name="mcno" maxlength="99999999999" required/> 
+                                <input type="number" class="form-control required" name="mcno" maxlength="99999999999" required/>
                               </div>
                             </div><br/>
 
@@ -599,9 +599,9 @@ session_start();
 
                             <hr>
                             <div class="text-center">
-                              <h3>BIRTHFATHER</h3>
+                              <h3>BIOLOGICAL FATHER</h3>
                             </div>
-                            
+
 
                             <div class="row">
                               <div class="col-6">
@@ -610,11 +610,11 @@ session_start();
                               </div>
                               <div class="col-3">
                                 <label><i class="text-danger fa fa-asterisk"></i>Birthdate</label>
-                                <input type="date" class="form-control required" name="fbirthdate" required/> 
+                                <input type="date" class="form-control required" name="fbirthdate" required/>
                               </div>
                               <div class="col-3">
                                 <label><i class="text-danger fa fa-asterisk"></i>Contact No</label>
-                                <input type="number" class="form-control required" name="fcno" required/> 
+                                <input type="number" class="form-control required" name="fcno" required/>
                               </div>
                             </div><br/>
 
@@ -788,7 +788,7 @@ session_start();
                       <input type="text" class="form-control" name="title"/>
                     </div>
                     <div class="col-6">
-                      <label>Case Study: </label> 
+                      <label>Case Study: </label>
                       <input type="file" name="caseStudy" class="form-control"/>
                     </div>
                   </div><br/>
@@ -800,18 +800,18 @@ session_start();
                   </form><br/><br/>
                 </div>
                 </div>
-                
+
               </div><br/>
-              
+
               <div class="step-footer">
                 <button data-direction="prev" class="step-btn btn">Previous</button>
                 <button data-direction="next" class="step-btn btn">Next</button>
                 <!--<button data-direction="finish" class="step-btn btn">Finish</button>-->
               </div>
-            </div>  
+            </div>
         </div><br/><br/>
 
-      
+
       </div><!--/. container-fluid -->
     </section>
     <!-- /.content -->

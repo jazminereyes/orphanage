@@ -33,7 +33,7 @@
     <!-- Custom styles for this template -->
     <link href="css/agency.min.css" rel="stylesheet">
     <link href="css/agency.css" rel="stylesheet">
-    <link href="../font/css/all.css" rel="stylesheet"> 
+    <link href="../font/css/all.css" rel="stylesheet">
     <!--load all styles -->
 
     <!-- MDB -->
@@ -76,13 +76,13 @@
 
     // window.alert(emailadd);
 
-      $('ul.nav li.dropdown').hover(function() 
+      $('ul.nav li.dropdown').hover(function()
       {
         $(this).find('.dropdown-menu').stop(true, true).delay(200).fadeIn(500);
       }, function() {
       $(this).find('.dropdown-menu').stop(true, true).delay(200).fadeOut(500);
       });
-    
+
     </script>
     <script type="text/javascript">
       function forgotPass(){
@@ -160,8 +160,8 @@
               <br/>
                 <span style="margin:auto;">Forgot your password?&nbsp<a href="#" class="text-center" style="text-decoration: underline;" onclick="forgotPass()">Click here.</a></span>
               </form>
-              <br/>     
-              
+              <br/>
+
               <div class="form-inline" id="inputemail" style="display: none; width: 100%; margin: auto">
                 <form method="post" action="forgotpw.php">
                   <hr/>
@@ -176,7 +176,7 @@
         </div>
       </div>
     </div>
-         
+
           </div>
         </div>
       </div>
@@ -186,13 +186,13 @@
     <div class="modal fade" id="modalSponsor">
       <div class="modal-dialog">
         <div class="modal-content">
-        
+
           <!-- Modal Header -->
           <div class="modal-header">
             <h4 class="modal-title">Sponsor Application</h4>
               <button type="button" class="close" data-dismiss="modal">&times;</button>
           </div>
-        
+
           <!-- Modal body -->
           <div class="modal-body">
               <center><label>Enter your application code</label>
@@ -201,7 +201,7 @@
                 <input type="hidden" name="type" value="1"/>
                 </center>
           </div>
-        
+
           <!-- Modal footer -->
           <div class="modal-footer">
               <input type="submit" value="Submit" name="submit" class="btn"/>
@@ -215,13 +215,13 @@
     <div class="modal fade" id="modalScholar">
         <div class="modal-dialog">
           <div class="modal-content">
-          
+
             <!-- Modal Header -->
           <div class="modal-header">
               <h4 class="modal-title">Scholar Application</h4>
                 <button type="button" class="close" data-dismiss="modal">&times;</button>
             </div>
-          
+
             <!-- Modal body -->
             <div class="modal-body">
                 <center><label>Enter your application code</label>
@@ -230,7 +230,7 @@
                   <input type="hidden" name="type" value="2"/>
                   </center>
             </div>
-          
+
             <!-- Modal footer -->
             <div class="modal-footer">
                 <input type="submit" value="Submit" name="submit" class="btn"/>
@@ -244,13 +244,13 @@
     <div class="modal fade" id="modalOrphan">
         <div class="modal-dialog">
           <div class="modal-content">
-          
+
             <!-- Modal Header -->
           <div class="modal-header">
               <h4 class="modal-title">Orphan Application</h4>
                 <button type="button" class="close" data-dismiss="modal">&times;</button>
             </div>
-          
+
             <!-- Modal body -->
             <div class="modal-body">
                 <center><label>Enter your application code</label>
@@ -259,7 +259,7 @@
                   <input type="hidden" name="type" value="orphan"/>
                   </center>
             </div>
-          
+
             <!-- Modal footer -->
             <div class="modal-footer">
                 <input type="submit" value="Submit" name="submit" class="btn"/>
@@ -582,7 +582,7 @@
                       </div>
                     </div>
                   </div><br/>
-                        
+
                 </div>
                 <div class="step-tab-panel" id="step3">
                   <div class="row">
@@ -618,7 +618,7 @@
                 </div>
 
                 <div class="step-tab-panel" id="step4">
-                  <h3 class="text-center">BIRTHMOTHER</h3>
+                  <h3 class="text-center">BIOLOGICAL MOTHER</h3>
 
                   <div class="row">
                     <div class="col-md-6 col-custom">
@@ -762,7 +762,7 @@
 
                   <hr>
 
-                  <h3 class="text-center">BIRTHFATHER</h3>
+                  <h3 class="text-center">BIOLOGICAL FATHER</h3>
 
                   <div class="row">
                     <div class="col-md-6 col-custom">
@@ -980,7 +980,7 @@
                         </div>
                         <input name="educExpense" type="number" min="0" class="form-control" style="width: 125px; margin: 0;"/>
                       </div><br/>
-                    </div>                          
+                    </div>
                     <div class="form-inline">
                       <label class="lbl" style="margin-right: 10px;">Annual medical expense of the whole family</label>
                       <div class="input-group mb-3" style="margin-top: 10px;">
@@ -1004,20 +1004,20 @@
                     </div>
                 </div>
               </div><br/>
-              
+
               <div class="step-footer">
                 <button data-direction="prev" class="step-btn btn">Previous</button>
                 <button data-direction="next" class="step-btn btn">Next</button>
                 <!--<button data-direction="finish" class="step-btn btn">Finish</button>-->
               </div>
-            </div>  
+            </div>
           </div>
 
 
         </div>
       </div>
     </section>
-    
+
     <!-- Footer -->
     <footer>
       <div class="container">
@@ -1026,7 +1026,7 @@
 
           </div>
           <div class="col-md-4">
-            
+
           </div>
           <div class="col-md-4">
             <ul class="list-inline quicklinks">
@@ -1068,13 +1068,13 @@
         } else{
             $byear = $_POST["byear"];
         }
-    
+
         if ($_POST["bmonth"]=""){
             $bmonth = "00";
         } else{
             $bmonth = $_POST["bmonth"];
         }
-    
+
         if ($_POST["bdate"]){
             $bday = "00";
         } else{
@@ -1088,13 +1088,13 @@
         } else{
             $hyear = $_POST["hyear"];
         }
-    
+
         if ($_POST["hmonth"]=""){
             $hmonth = "00";
         } else{
             $hmonth = $_POST["hmonth"];
         }
-    
+
         if ($_POST["hdate"]){
             $hday = "00";
         } else{
@@ -1108,13 +1108,13 @@
         } else{
             $myear = $_POST["myear"];
         }
-    
+
         if ($_POST["mmonth"]=""){
             $mmonth = "00";
         } else{
             $mmonth = $_POST["mmonth"];
         }
-    
+
         if ($_POST["mdate"]){
             $mday = "00";
         } else{
@@ -1130,13 +1130,13 @@
         } else{
             $fyear = $_POST["fyear"];
         }
-    
+
         if ($_POST["fmonth"]=""){
             $fmonth = "00";
         } else{
             $fmonth = $_POST["fmonth"];
         }
-    
+
         if ($_POST["fdate"]){
             $fday = "00";
         } else{
@@ -1167,7 +1167,7 @@
         {
             $hobby_id = mysqli_insert_id($con);
         }
-        
+
         $queryy = "INSERT INTO s_expenditure(homeType, homeStatus, houseMonthlyCost, electricityType, electricityMonthlyCost, foodType, individualCount, waterType, waterCost, bathroomType, educExpense, medExpense, otherExpense) VALUES ('$_POST[homeType]', '$_POST[homeStatus]', '$_POST[houseMonthlyCost]', '$_POST[electricityType]', '$_POST[electricityMonthlyCost]', '$_POST[foodType]', '$_POST[individualCount]', '$_POST[waterType]', '$_POST[waterCost]', '$_POST[bathType]', '$_POST[educExpense]', '$_POST[medExpense]', '$_POST[otherExpense]')";
 
         if (mysqli_query($con, $queryy))
@@ -1215,7 +1215,7 @@
         $query9 = "INSERT INTO scholar(personID, scholarAppID, currentYrLevel, birthdate, street, city, zip, classification, school, religion, applicationStatus) VALUES ('$person_id', '$app_id', '$_POST[currentYrLevel]', '$birthday', '$_POST[street]', '$_POST[city]', '$_POST[zip]', '$_POST[classification]', '$_POST[school]', '$_POST[religion]', 'Pending')";
 
         if(mysqli_query($con, $query9)){
-        
+
             $file = $_FILES['photo'];
             $name = $file['name'];
 
@@ -1240,22 +1240,22 @@
 
   }
 
-    function createRandomPassword() { 
+    function createRandomPassword() {
 
-        $chars = "abcdefghijkmnopqrstuvwxyz0123456789"; 
-        srand((double)microtime()*1000000); 
-        $i = 0; 
-        $pass = '' ; 
-    
-        while ($i <= 5) { 
-            $num = rand() % 33; 
-            $tmp = substr($chars, $num, 1); 
-            $pass = $pass . $tmp; 
-            $i++; 
-        } 
-    
-        return $pass; 
-    
+        $chars = "abcdefghijkmnopqrstuvwxyz0123456789";
+        srand((double)microtime()*1000000);
+        $i = 0;
+        $pass = '' ;
+
+        while ($i <= 5) {
+            $num = rand() % 33;
+            $tmp = substr($chars, $num, 1);
+            $pass = $pass . $tmp;
+            $i++;
+        }
+
+        return $pass;
+
     }
 ?>
 
@@ -1309,7 +1309,7 @@
 
     <script>
       (function() {
-        [].slice.call( document.querySelectorAll( 'select.cs-select' ) ).forEach( function(el) {  
+        [].slice.call( document.querySelectorAll( 'select.cs-select' ) ).forEach( function(el) {
           new SelectFx(el);
         } );
       })();
@@ -1357,7 +1357,7 @@
         })
       });
 
-      
+
       $(document).ready(function() {
           $("body" ).on( "ifChanged","#prefyes" , function() {
              document.getElementById('preference').style.display = "block";
